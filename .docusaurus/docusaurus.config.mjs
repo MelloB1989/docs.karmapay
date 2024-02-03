@@ -4,13 +4,13 @@
  * Modify the docusaurus.config.js file at your site's root instead.
  */
 export default {
-  "title": "My Site",
-  "tagline": "Dinosaurs are cool",
-  "favicon": "img/favicon.ico",
-  "url": "https://your-docusaurus-site.example.com",
+  "title": "Noobsverse Docs",
+  "tagline": "Noobsverse Documentation",
+  "favicon": "https://cdn.global.noobsverse.com/logos/nvai/Noobsverse.png",
+  "url": "https://docs.noobsverse.com",
   "baseUrl": "/",
-  "organizationName": "facebook",
-  "projectName": "docusaurus",
+  "organizationName": "noobsverse",
+  "projectName": "docs.noobsverse",
   "onBrokenLinks": "throw",
   "onBrokenMarkdownLinks": "warn",
   "i18n": {
@@ -40,28 +40,23 @@ export default {
     ]
   ],
   "themeConfig": {
-    "image": "img/docusaurus-social-card.jpg",
+    "image": "https://cdn.global.noobsverse.com/logos/nvai/Noobsverse.png",
     "navbar": {
-      "title": "My Site",
+      "title": "Noobsverse Docs",
       "logo": {
-        "alt": "My Site Logo",
-        "src": "img/logo.svg"
+        "alt": "Noobsverse Logo",
+        "src": "https://cdn.global.noobsverse.com/logos/nvai/Noobsverse.png"
       },
       "items": [
         {
           "type": "docSidebar",
-          "sidebarId": "tutorialSidebar",
+          "sidebarId": "karmapay",
           "position": "left",
-          "label": "Tutorial"
+          "label": "KarmaPay API"
         },
         {
-          "to": "/blog",
-          "label": "Blog",
-          "position": "left"
-        },
-        {
-          "href": "https://github.com/facebook/docusaurus",
-          "label": "GitHub",
+          "href": "https://noobslearning.com",
+          "label": "Community",
           "position": "right"
         }
       ],
@@ -74,8 +69,8 @@ export default {
           "title": "Docs",
           "items": [
             {
-              "label": "Tutorial",
-              "to": "/docs/intro"
+              "label": "KarmaPay API",
+              "to": "/docs/karmapay"
             }
           ]
         },
@@ -95,22 +90,9 @@ export default {
               "href": "https://twitter.com/docusaurus"
             }
           ]
-        },
-        {
-          "title": "More",
-          "items": [
-            {
-              "label": "Blog",
-              "to": "/blog"
-            },
-            {
-              "label": "GitHub",
-              "href": "https://github.com/facebook/docusaurus"
-            }
-          ]
         }
       ],
-      "copyright": "Copyright © 2024 My Project, Inc. Built with Docusaurus."
+      "copyright": "Copyright © 2024 Noobsverse Private Limited."
     },
     "prism": {
       "theme": {
