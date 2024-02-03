@@ -11,7 +11,7 @@
     "karmapay": [
       {
         "type": "category",
-        "label": "Introduction",
+        "label": "Introduction to Karmapay",
         "items": [
           {
             "type": "link",
@@ -29,8 +29,13 @@
   "docs": {
     "intro": {
       "id": "intro",
-      "title": "Tutorial Intro",
-      "description": "Let's discover Docusaurus in less than 5 minutes."
+      "title": "intor",
+      "description": ""
+    },
+    "karmapay": {
+      "id": "karmapay",
+      "title": "KarmaPay - The Universal Payment Gateway",
+      "description": "KarmaPay Logo"
     },
     "tutorial-basics/congratulations": {
       "id": "tutorial-basics/congratulations",
@@ -62,16 +67,6 @@
       "id": "tutorial-basics/markdown-features",
       "title": "Markdown Features",
       "description": "Docusaurus supports Markdown and a few additional features."
-    },
-    "tutorial-extras/manage-docs-versions": {
-      "id": "tutorial-extras/manage-docs-versions",
-      "title": "Manage Docs Versions",
-      "description": "Docusaurus can manage multiple versions of your docs."
-    },
-    "tutorial-extras/translate-your-site": {
-      "id": "tutorial-extras/translate-your-site",
-      "title": "Translate your site",
-      "description": "Let's translate docs/intro.md to French."
     }
   }
 }

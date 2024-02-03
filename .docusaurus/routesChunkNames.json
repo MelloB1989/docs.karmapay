@@ -127,22 +127,26 @@
     },
     "content": "content---markdown-page-393-028"
   },
-  "/docs-d4c": {
+  "/docs-bf0": {
     "__comp": "__comp---theme-docs-root-5-e-9-0b6",
     "__context": {
       "plugin": "plugin---docse-0-e-a62"
     }
   },
-  "/docs-49b": {
+  "/docs-199": {
     "__comp": "__comp---theme-doc-version-roota-7-b-5de",
     "version": "version---docs-935-398"
   },
-  "/docs-bb7": {
+  "/docs-46b": {
     "__comp": "__comp---theme-doc-roota-94-67a"
   },
   "/docs/intro-e84": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-intro-0-e-3-be1"
+  },
+  "/docs/karmapay-d15": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-karmapay-481-d3b"
   },
   "/docs/tutorial-basics/congratulations-7ef": {
     "__comp": "__comp---theme-doc-item-178-a40",
@@ -167,14 +171,6 @@
   "/docs/tutorial-basics/markdown-features-f90": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-tutorial-basics-markdown-features-18-c-a79"
-  },
-  "/docs/tutorial-extras/manage-docs-versions-d64": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-tutorial-extras-manage-docs-versionsdff-6d4"
-  },
-  "/docs/tutorial-extras/translate-your-site-16a": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-tutorial-extras-translate-your-sitee-44-ddf"
   },
   "/-241": {
     "__comp": "__comp---site-src-pages-index-jsc-4-f-f99",

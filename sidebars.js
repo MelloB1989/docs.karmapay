@@ -18,7 +18,7 @@ const sidebars = {
   karmapay: [
     {
       type: 'category',
-      label: 'Introduction',
+      label: 'Introduction to Karmapay',
       items: ['tutorial-basics/create-a-document'],
     },
   ],

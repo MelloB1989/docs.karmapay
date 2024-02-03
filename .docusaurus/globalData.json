@@ -15,6 +15,10 @@
               "path": "/docs/intro"
             },
             {
+              "id": "karmapay",
+              "path": "/docs/karmapay"
+            },
+            {
               "id": "tutorial-basics/congratulations",
               "path": "/docs/tutorial-basics/congratulations"
             },
@@ -38,14 +42,6 @@
             {
               "id": "tutorial-basics/markdown-features",
               "path": "/docs/tutorial-basics/markdown-features"
-            },
-            {
-              "id": "tutorial-extras/manage-docs-versions",
-              "path": "/docs/tutorial-extras/manage-docs-versions"
-            },
-            {
-              "id": "tutorial-extras/translate-your-site",
-              "path": "/docs/tutorial-extras/translate-your-site"
             }
           ],
           "draftIds": [],

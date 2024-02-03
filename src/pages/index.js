@@ -15,7 +15,7 @@ function HomepageHeader() {
         <Heading as="h1" className="hero__title">
           {siteConfig.title}
         </Heading>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
+        <p className="hero__subtitle">Welcome to the Karma Project</p>
       </div>
     </header>
   );
@@ -25,8 +25,8 @@ export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      title={`Noobsverse Docs`}
+      description="Documentation of opensource projects of Noobsverse">
       <HomepageHeader />
       <main>
         <HomepageFeatures />

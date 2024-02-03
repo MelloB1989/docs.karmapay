@@ -79,19 +79,24 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', 'd4c'),
+    component: ComponentCreator('/docs', 'bf0'),
     routes: [
       {
         path: '/docs',
-        component: ComponentCreator('/docs', '49b'),
+        component: ComponentCreator('/docs', '199'),
         routes: [
           {
             path: '/docs',
-            component: ComponentCreator('/docs', 'bb7'),
+            component: ComponentCreator('/docs', '46b'),
             routes: [
               {
                 path: '/docs/intro',
                 component: ComponentCreator('/docs/intro', 'e84'),
+                exact: true
+              },
+              {
+                path: '/docs/karmapay',
+                component: ComponentCreator('/docs/karmapay', 'd15'),
                 exact: true
               },
               {
@@ -123,16 +128,6 @@ export default [
               {
                 path: '/docs/tutorial-basics/markdown-features',
                 component: ComponentCreator('/docs/tutorial-basics/markdown-features', 'f90'),
-                exact: true
-              },
-              {
-                path: '/docs/tutorial-extras/manage-docs-versions',
-                component: ComponentCreator('/docs/tutorial-extras/manage-docs-versions', 'd64'),
-                exact: true
-              },
-              {
-                path: '/docs/tutorial-extras/translate-your-site',
-                component: ComponentCreator('/docs/tutorial-extras/translate-your-site', '16a'),
                 exact: true
               }
             ]
