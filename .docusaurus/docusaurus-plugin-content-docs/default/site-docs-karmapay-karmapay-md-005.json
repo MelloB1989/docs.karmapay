@@ -1,0 +1,20 @@
+{
+  "id": "karmapay/karmapay",
+  "title": "KarmaPay - The Universal Payment Gateway",
+  "description": "KarmaPay Logo",
+  "source": "@site/docs/karmapay/karmapay.md",
+  "sourceDirName": "karmapay",
+  "slug": "/karmapay/",
+  "permalink": "/docs/karmapay/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/mellob1989/docs.noobsverse/tree/main/docs/karmapay/karmapay.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "karmapay",
+  "next": {
+    "title": "Work Flow of KarmaPay",
+    "permalink": "/docs/karmapay/working/workflow"
+  }
+}

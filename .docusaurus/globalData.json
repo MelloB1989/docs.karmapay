@@ -8,15 +8,46 @@
           "label": "Next",
           "isLast": true,
           "path": "/docs",
-          "mainDocId": "tutorial-basics/create-a-document",
+          "mainDocId": "karmapay/karmapay",
           "docs": [
             {
               "id": "intro",
               "path": "/docs/intro"
             },
             {
-              "id": "karmapay",
-              "path": "/docs/karmapay"
+              "id": "karmapay/api-documentation/create-order",
+              "path": "/docs/karmapay/api-documentation/create-order",
+              "sidebar": "karmapay"
+            },
+            {
+              "id": "karmapay/getting-started/account-setup",
+              "path": "/docs/karmapay/getting-started/account-setup",
+              "sidebar": "karmapay"
+            },
+            {
+              "id": "karmapay/getting-started/phonepe",
+              "path": "/docs/karmapay/getting-started/phonepe",
+              "sidebar": "karmapay"
+            },
+            {
+              "id": "karmapay/getting-started/razorpay",
+              "path": "/docs/karmapay/getting-started/razorpay",
+              "sidebar": "karmapay"
+            },
+            {
+              "id": "karmapay/getting-started/stripe",
+              "path": "/docs/karmapay/getting-started/stripe",
+              "sidebar": "karmapay"
+            },
+            {
+              "id": "karmapay/karmapay",
+              "path": "/docs/karmapay/",
+              "sidebar": "karmapay"
+            },
+            {
+              "id": "karmapay/working/workflow",
+              "path": "/docs/karmapay/working/workflow",
+              "sidebar": "karmapay"
             },
             {
               "id": "tutorial-basics/congratulations",
@@ -28,8 +59,7 @@
             },
             {
               "id": "tutorial-basics/create-a-document",
-              "path": "/docs/tutorial-basics/create-a-document",
-              "sidebar": "karmapay"
+              "path": "/docs/tutorial-basics/create-a-document"
             },
             {
               "id": "tutorial-basics/create-a-page",
@@ -48,8 +78,8 @@
           "sidebars": {
             "karmapay": {
               "link": {
-                "path": "/docs/tutorial-basics/create-a-document",
-                "label": "tutorial-basics/create-a-document"
+                "path": "/docs/karmapay/",
+                "label": "karmapay/karmapay"
               }
             }
           }

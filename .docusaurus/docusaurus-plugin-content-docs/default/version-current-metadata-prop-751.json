@@ -15,9 +15,75 @@
         "items": [
           {
             "type": "link",
-            "label": "Create a Document",
-            "href": "/docs/tutorial-basics/create-a-document",
-            "docId": "tutorial-basics/create-a-document",
+            "label": "KarmaPay - The Universal Payment Gateway",
+            "href": "/docs/karmapay/",
+            "docId": "karmapay/karmapay",
+            "unlisted": false
+          }
+        ],
+        "collapsed": true,
+        "collapsible": true
+      },
+      {
+        "type": "category",
+        "label": "How KarmaPay Works?",
+        "items": [
+          {
+            "type": "link",
+            "label": "Work Flow of KarmaPay",
+            "href": "/docs/karmapay/working/workflow",
+            "docId": "karmapay/working/workflow",
+            "unlisted": false
+          }
+        ],
+        "collapsed": true,
+        "collapsible": true
+      },
+      {
+        "type": "category",
+        "label": "Getting started with Karmapay",
+        "items": [
+          {
+            "type": "link",
+            "label": "KarmaPay account setup",
+            "href": "/docs/karmapay/getting-started/account-setup",
+            "docId": "karmapay/getting-started/account-setup",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Generating a Razorpay API Keys",
+            "href": "/docs/karmapay/getting-started/razorpay",
+            "docId": "karmapay/getting-started/razorpay",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Generating a PhonePe API Keys",
+            "href": "/docs/karmapay/getting-started/phonepe",
+            "docId": "karmapay/getting-started/phonepe",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Generating a Stripe API Keys",
+            "href": "/docs/karmapay/getting-started/stripe",
+            "docId": "karmapay/getting-started/stripe",
+            "unlisted": false
+          }
+        ],
+        "collapsed": true,
+        "collapsible": true
+      },
+      {
+        "type": "category",
+        "label": "API Documentation",
+        "items": [
+          {
+            "type": "link",
+            "label": "Create Order API",
+            "href": "/docs/karmapay/api-documentation/create-order",
+            "docId": "karmapay/api-documentation/create-order",
             "unlisted": false
           }
         ],
@@ -32,10 +98,47 @@
       "title": "intor",
       "description": ""
     },
-    "karmapay": {
-      "id": "karmapay",
+    "karmapay/api-documentation/create-order": {
+      "id": "karmapay/api-documentation/create-order",
+      "title": "Create Order API",
+      "description": "The Create Order API allows developers to create a new payment order through KarmaPay. This section details the request requirements, including HTTP method, headers, body parameters, and the handling of responses.",
+      "sidebar": "karmapay"
+    },
+    "karmapay/getting-started/account-setup": {
+      "id": "karmapay/getting-started/account-setup",
+      "title": "KarmaPay account setup",
+      "description": "Welcome to KarmaPay! This guide will walk you through the steps to get started, including creating your developer account and setting up your payment gateways.",
+      "sidebar": "karmapay"
+    },
+    "karmapay/getting-started/phonepe": {
+      "id": "karmapay/getting-started/phonepe",
+      "title": "Generating a PhonePe API Keys",
+      "description": "Integrating PhonePe as a payment gateway in KarmaPay requires an API key. This key facilitates secure communication between KarmaPay and PhonePe. Here’s how you can generate it:",
+      "sidebar": "karmapay"
+    },
+    "karmapay/getting-started/razorpay": {
+      "id": "karmapay/getting-started/razorpay",
+      "title": "Generating a Razorpay API Keys",
+      "description": "To integrate Razorpay with KarmaPay, you need to generate an API key from your Razorpay dashboard. This API key will allow KarmaPay to process payments through Razorpay on your behalf. Follow these steps to generate your API key:",
+      "sidebar": "karmapay"
+    },
+    "karmapay/getting-started/stripe": {
+      "id": "karmapay/getting-started/stripe",
+      "title": "Generating a Stripe API Keys",
+      "description": "To use Stripe with KarmaPay, you'll need to generate a Stripe API key. This key enables KarmaPay to initiate transactions and process payments via Stripe. Follow the below steps to generate your Stripe API key:",
+      "sidebar": "karmapay"
+    },
+    "karmapay/karmapay": {
+      "id": "karmapay/karmapay",
       "title": "KarmaPay - The Universal Payment Gateway",
-      "description": "KarmaPay Logo"
+      "description": "KarmaPay Logo",
+      "sidebar": "karmapay"
+    },
+    "karmapay/working/workflow": {
+      "id": "karmapay/working/workflow",
+      "title": "Work Flow of KarmaPay",
+      "description": "KarmaPay is designed to simplify the integration of multiple payment gateways into your application, providing a unified, secure, and efficient way to handle online payments. Here's an overview of the workflow and how you can leverage KarmaPay for your payment processing needs.",
+      "sidebar": "karmapay"
     },
     "tutorial-basics/congratulations": {
       "id": "tutorial-basics/congratulations",
@@ -50,8 +153,7 @@
     "tutorial-basics/create-a-document": {
       "id": "tutorial-basics/create-a-document",
       "title": "Create a Document",
-      "description": "Documents are groups of pages connected through:",
-      "sidebar": "karmapay"
+      "description": "Documents are groups of pages connected through:"
     },
     "tutorial-basics/create-a-page": {
       "id": "tutorial-basics/create-a-page",

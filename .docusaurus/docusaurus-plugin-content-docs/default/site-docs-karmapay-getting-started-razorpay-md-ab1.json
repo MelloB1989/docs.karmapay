@@ -1,0 +1,24 @@
+{
+  "id": "karmapay/getting-started/razorpay",
+  "title": "Generating a Razorpay API Keys",
+  "description": "To integrate Razorpay with KarmaPay, you need to generate an API key from your Razorpay dashboard. This API key will allow KarmaPay to process payments through Razorpay on your behalf. Follow these steps to generate your API key:",
+  "source": "@site/docs/karmapay/getting-started/razorpay.md",
+  "sourceDirName": "karmapay/getting-started",
+  "slug": "/karmapay/getting-started/razorpay",
+  "permalink": "/docs/karmapay/getting-started/razorpay",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/mellob1989/docs.noobsverse/tree/main/docs/karmapay/getting-started/razorpay.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "karmapay",
+  "previous": {
+    "title": "KarmaPay account setup",
+    "permalink": "/docs/karmapay/getting-started/account-setup"
+  },
+  "next": {
+    "title": "Generating a PhonePe API Keys",
+    "permalink": "/docs/karmapay/getting-started/phonepe"
+  }
+}

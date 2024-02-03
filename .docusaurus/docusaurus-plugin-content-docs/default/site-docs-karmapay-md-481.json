@@ -11,5 +11,10 @@
   "editUrl": "https://github.com/mellob1989/docs.noobsverse/tree/main/docs/karmapay.md",
   "tags": [],
   "version": "current",
-  "frontMatter": {}
+  "frontMatter": {},
+  "sidebar": "karmapay",
+  "next": {
+    "title": "KarmaPay - The Universal Payment Gateway",
+    "permalink": "/docs/karmapay"
+  }
 }

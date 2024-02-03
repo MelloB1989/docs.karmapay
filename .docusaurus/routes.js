@@ -79,15 +79,15 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', 'bf0'),
+    component: ComponentCreator('/docs', 'd24'),
     routes: [
       {
         path: '/docs',
-        component: ComponentCreator('/docs', '199'),
+        component: ComponentCreator('/docs', '3bd'),
         routes: [
           {
             path: '/docs',
-            component: ComponentCreator('/docs', '46b'),
+            component: ComponentCreator('/docs', '83c'),
             routes: [
               {
                 path: '/docs/intro',
@@ -95,9 +95,46 @@ export default [
                 exact: true
               },
               {
-                path: '/docs/karmapay',
-                component: ComponentCreator('/docs/karmapay', 'd15'),
-                exact: true
+                path: '/docs/karmapay/',
+                component: ComponentCreator('/docs/karmapay/', 'ae0'),
+                exact: true,
+                sidebar: "karmapay"
+              },
+              {
+                path: '/docs/karmapay/api-documentation/create-order',
+                component: ComponentCreator('/docs/karmapay/api-documentation/create-order', '884'),
+                exact: true,
+                sidebar: "karmapay"
+              },
+              {
+                path: '/docs/karmapay/getting-started/account-setup',
+                component: ComponentCreator('/docs/karmapay/getting-started/account-setup', '83a'),
+                exact: true,
+                sidebar: "karmapay"
+              },
+              {
+                path: '/docs/karmapay/getting-started/phonepe',
+                component: ComponentCreator('/docs/karmapay/getting-started/phonepe', 'ac5'),
+                exact: true,
+                sidebar: "karmapay"
+              },
+              {
+                path: '/docs/karmapay/getting-started/razorpay',
+                component: ComponentCreator('/docs/karmapay/getting-started/razorpay', 'c6d'),
+                exact: true,
+                sidebar: "karmapay"
+              },
+              {
+                path: '/docs/karmapay/getting-started/stripe',
+                component: ComponentCreator('/docs/karmapay/getting-started/stripe', '56e'),
+                exact: true,
+                sidebar: "karmapay"
+              },
+              {
+                path: '/docs/karmapay/working/workflow',
+                component: ComponentCreator('/docs/karmapay/working/workflow', 'a6c'),
+                exact: true,
+                sidebar: "karmapay"
               },
               {
                 path: '/docs/tutorial-basics/congratulations',
@@ -111,9 +148,8 @@ export default [
               },
               {
                 path: '/docs/tutorial-basics/create-a-document',
-                component: ComponentCreator('/docs/tutorial-basics/create-a-document', 'e44'),
-                exact: true,
-                sidebar: "karmapay"
+                component: ComponentCreator('/docs/tutorial-basics/create-a-document', 'f0d'),
+                exact: true
               },
               {
                 path: '/docs/tutorial-basics/create-a-page',

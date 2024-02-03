@@ -1,0 +1,20 @@
+{
+  "id": "karmapay/api-documentation/create-order",
+  "title": "Create Order API",
+  "description": "The Create Order API allows developers to create a new payment order through KarmaPay. This section details the request requirements, including HTTP method, headers, body parameters, and the handling of responses.",
+  "source": "@site/docs/karmapay/api-documentation/create-order.md",
+  "sourceDirName": "karmapay/api-documentation",
+  "slug": "/karmapay/api-documentation/create-order",
+  "permalink": "/docs/karmapay/api-documentation/create-order",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/mellob1989/docs.noobsverse/tree/main/docs/karmapay/api-documentation/create-order.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "karmapay",
+  "previous": {
+    "title": "Generating a Stripe API Keys",
+    "permalink": "/docs/karmapay/getting-started/stripe"
+  }
+}

@@ -19,7 +19,22 @@ const sidebars = {
     {
       type: 'category',
       label: 'Introduction to Karmapay',
-      items: ['tutorial-basics/create-a-document'],
+      items: ['karmapay/karmapay'],
+    },
+    {
+      type: 'category',
+      label: 'How KarmaPay Works?',
+      items: ['karmapay/working/workflow'],
+    },
+    {
+      type: 'category',
+      label: 'Getting started with Karmapay',
+      items: ['karmapay/getting-started/account-setup', 'karmapay/getting-started/razorpay', 'karmapay/getting-started/phonepe', 'karmapay/getting-started/stripe'],
+    },
+    {
+      type: 'category',
+      label: 'API Documentation',
+      items: ['karmapay/api-documentation/create-order'],
     },
   ],
 

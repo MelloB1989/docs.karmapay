@@ -1,0 +1,24 @@
+{
+  "id": "karmapay/getting-started/phonepe",
+  "title": "Generating a PhonePe API Keys",
+  "description": "Integrating PhonePe as a payment gateway in KarmaPay requires an API key. This key facilitates secure communication between KarmaPay and PhonePe. Here’s how you can generate it:",
+  "source": "@site/docs/karmapay/getting-started/phonepe.md",
+  "sourceDirName": "karmapay/getting-started",
+  "slug": "/karmapay/getting-started/phonepe",
+  "permalink": "/docs/karmapay/getting-started/phonepe",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/mellob1989/docs.noobsverse/tree/main/docs/karmapay/getting-started/phonepe.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "karmapay",
+  "previous": {
+    "title": "Generating a Razorpay API Keys",
+    "permalink": "/docs/karmapay/getting-started/razorpay"
+  },
+  "next": {
+    "title": "Generating a Stripe API Keys",
+    "permalink": "/docs/karmapay/getting-started/stripe"
+  }
+}
