@@ -69,8 +69,8 @@ We welcome contributions from the open-source community to help make KarmaPay ev
 - Test your changes thoroughly and provide test cases where applicable.
 - Submit a pull request with a detailed description of your changes.
 
-For more details, please check our [Contributing Guidelines](CONTRIBUTING.md).
+For more details, please check our [Contributing Guidelines](https://github.com/MelloB1989/KarmaPay/blob/main/CONTRIBUTING.md).
 
 ## Licensing
 
-KarmaPay is licensed under the Apache License 2.0. See the [LICENSE](LICENSE) file for more details.
+KarmaPay is licensed under the Apache License 2.0. See the [LICENSE](https://github.com/MelloB1989/KarmaPay/blob/main/LICENSE) file for more details.
