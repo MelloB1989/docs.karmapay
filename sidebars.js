@@ -38,6 +38,24 @@ const sidebars = {
     },
   ],
 
+  healthKareAI: [
+    {
+      type: 'category',
+      label: 'HealthKareAI AUTH APIs',
+      items: ['HealthKareAI/login', 'HealthKareAI/register', 'HealthKareAI/verifyOTP'],
+    },
+    {
+      type: 'category',
+      label: 'HealthKareAI User APIs',
+      items: ['HealthKareAI/update_phone', 'HealthKareAI/update_email', 'HealthKareAI/update_password', 'HealthKareAI/update_city', 'HealthKareAI/update_role', 'HealthKareAI/get_user'],
+    },
+    {
+      type: 'category',
+      label: 'Error Codes',
+      items: ['HealthKareAI/error_codes'],
+    }
+  ]
+
   // But you can create a sidebar manually
   /*
   tutorialSidebar: [

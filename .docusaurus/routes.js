@@ -79,16 +79,76 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', 'd24'),
+    component: ComponentCreator('/docs', '5e3'),
     routes: [
       {
         path: '/docs',
-        component: ComponentCreator('/docs', '3bd'),
+        component: ComponentCreator('/docs', 'd66'),
         routes: [
           {
             path: '/docs',
-            component: ComponentCreator('/docs', '83c'),
+            component: ComponentCreator('/docs', 'a3b'),
             routes: [
+              {
+                path: '/docs/HealthKareAI/error_codes',
+                component: ComponentCreator('/docs/HealthKareAI/error_codes', '17b'),
+                exact: true,
+                sidebar: "healthKareAI"
+              },
+              {
+                path: '/docs/HealthKareAI/get_user',
+                component: ComponentCreator('/docs/HealthKareAI/get_user', '63b'),
+                exact: true,
+                sidebar: "healthKareAI"
+              },
+              {
+                path: '/docs/HealthKareAI/login',
+                component: ComponentCreator('/docs/HealthKareAI/login', '5f6'),
+                exact: true,
+                sidebar: "healthKareAI"
+              },
+              {
+                path: '/docs/HealthKareAI/register',
+                component: ComponentCreator('/docs/HealthKareAI/register', '6e7'),
+                exact: true,
+                sidebar: "healthKareAI"
+              },
+              {
+                path: '/docs/HealthKareAI/update_city',
+                component: ComponentCreator('/docs/HealthKareAI/update_city', '35b'),
+                exact: true,
+                sidebar: "healthKareAI"
+              },
+              {
+                path: '/docs/HealthKareAI/update_email',
+                component: ComponentCreator('/docs/HealthKareAI/update_email', '509'),
+                exact: true,
+                sidebar: "healthKareAI"
+              },
+              {
+                path: '/docs/HealthKareAI/update_password',
+                component: ComponentCreator('/docs/HealthKareAI/update_password', '281'),
+                exact: true,
+                sidebar: "healthKareAI"
+              },
+              {
+                path: '/docs/HealthKareAI/update_phone',
+                component: ComponentCreator('/docs/HealthKareAI/update_phone', '3c6'),
+                exact: true,
+                sidebar: "healthKareAI"
+              },
+              {
+                path: '/docs/HealthKareAI/update_role',
+                component: ComponentCreator('/docs/HealthKareAI/update_role', 'd02'),
+                exact: true,
+                sidebar: "healthKareAI"
+              },
+              {
+                path: '/docs/HealthKareAI/verifyOTP',
+                component: ComponentCreator('/docs/HealthKareAI/verifyOTP', '110'),
+                exact: true,
+                sidebar: "healthKareAI"
+              },
               {
                 path: '/docs/intro',
                 component: ComponentCreator('/docs/intro', 'e84'),

@@ -127,18 +127,58 @@
     },
     "content": "content---markdown-page-393-028"
   },
-  "/docs-d24": {
+  "/docs-5e3": {
     "__comp": "__comp---theme-docs-root-5-e-9-0b6",
     "__context": {
       "plugin": "plugin---docse-0-e-a62"
     }
   },
-  "/docs-3bd": {
+  "/docs-d66": {
     "__comp": "__comp---theme-doc-version-roota-7-b-5de",
     "version": "version---docs-935-398"
   },
-  "/docs-83c": {
+  "/docs-a3b": {
     "__comp": "__comp---theme-doc-roota-94-67a"
+  },
+  "/docs/HealthKareAI/error_codes-17b": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-health-kare-ai-error-codesf-78-efb"
+  },
+  "/docs/HealthKareAI/get_user-63b": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-health-kare-ai-get-user-2-d-9-282"
+  },
+  "/docs/HealthKareAI/login-5f6": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-health-kare-ai-login-9-fc-6bd"
+  },
+  "/docs/HealthKareAI/register-6e7": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-health-kare-ai-register-67-f-aa7"
+  },
+  "/docs/HealthKareAI/update_city-35b": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-health-kare-ai-update-city-96-c-e24"
+  },
+  "/docs/HealthKareAI/update_email-509": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-health-kare-ai-update-email-128-269"
+  },
+  "/docs/HealthKareAI/update_password-281": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-health-kare-ai-update-password-431-ef9"
+  },
+  "/docs/HealthKareAI/update_phone-3c6": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-health-kare-ai-update-phoned-82-a9a"
+  },
+  "/docs/HealthKareAI/update_role-d02": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-health-kare-ai-update-rolec-9-b-d48"
+  },
+  "/docs/HealthKareAI/verifyOTP-110": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-health-kare-ai-verify-otp-6-e-8-272"
   },
   "/docs/intro-e84": {
     "__comp": "__comp---theme-doc-item-178-a40",

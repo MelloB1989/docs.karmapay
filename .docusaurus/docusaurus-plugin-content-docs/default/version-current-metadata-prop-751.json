@@ -90,9 +90,165 @@
         "collapsed": true,
         "collapsible": true
       }
+    ],
+    "healthKareAI": [
+      {
+        "type": "category",
+        "label": "HealthKareAI AUTH APIs",
+        "items": [
+          {
+            "type": "link",
+            "label": "Login API",
+            "href": "/docs/HealthKareAI/login",
+            "docId": "HealthKareAI/login",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Register API",
+            "href": "/docs/HealthKareAI/register",
+            "docId": "HealthKareAI/register",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "OTP Verification API",
+            "href": "/docs/HealthKareAI/verifyOTP",
+            "docId": "HealthKareAI/verifyOTP",
+            "unlisted": false
+          }
+        ],
+        "collapsed": true,
+        "collapsible": true
+      },
+      {
+        "type": "category",
+        "label": "HealthKareAI User APIs",
+        "items": [
+          {
+            "type": "link",
+            "label": "Update User Phone API",
+            "href": "/docs/HealthKareAI/update_phone",
+            "docId": "HealthKareAI/update_phone",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Update User Email API",
+            "href": "/docs/HealthKareAI/update_email",
+            "docId": "HealthKareAI/update_email",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Update User Password API",
+            "href": "/docs/HealthKareAI/update_password",
+            "docId": "HealthKareAI/update_password",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Update User City API",
+            "href": "/docs/HealthKareAI/update_city",
+            "docId": "HealthKareAI/update_city",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Update User Role API",
+            "href": "/docs/HealthKareAI/update_role",
+            "docId": "HealthKareAI/update_role",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Get User Details API",
+            "href": "/docs/HealthKareAI/get_user",
+            "docId": "HealthKareAI/get_user",
+            "unlisted": false
+          }
+        ],
+        "collapsed": true,
+        "collapsible": true
+      },
+      {
+        "type": "category",
+        "label": "Error Codes",
+        "items": [
+          {
+            "type": "link",
+            "label": "Error Codes and Security",
+            "href": "/docs/HealthKareAI/error_codes",
+            "docId": "HealthKareAI/error_codes",
+            "unlisted": false
+          }
+        ],
+        "collapsed": true,
+        "collapsible": true
+      }
     ]
   },
   "docs": {
+    "HealthKareAI/error_codes": {
+      "id": "HealthKareAI/error_codes",
+      "title": "Error Codes and Security",
+      "description": "- 401 Unauthorized: Authentication failed due to incorrect credentials or OTP.",
+      "sidebar": "healthKareAI"
+    },
+    "HealthKareAI/get_user": {
+      "id": "HealthKareAI/get_user",
+      "title": "Get User Details API",
+      "description": "Endpoint",
+      "sidebar": "healthKareAI"
+    },
+    "HealthKareAI/login": {
+      "id": "HealthKareAI/login",
+      "title": "Login API",
+      "description": "- Endpoint: /auth/login",
+      "sidebar": "healthKareAI"
+    },
+    "HealthKareAI/register": {
+      "id": "HealthKareAI/register",
+      "title": "Register API",
+      "description": "- Endpoint: /auth/register",
+      "sidebar": "healthKareAI"
+    },
+    "HealthKareAI/update_city": {
+      "id": "HealthKareAI/update_city",
+      "title": "Update User City API",
+      "description": "Endpoint",
+      "sidebar": "healthKareAI"
+    },
+    "HealthKareAI/update_email": {
+      "id": "HealthKareAI/update_email",
+      "title": "Update User Email API",
+      "description": "Endpoint",
+      "sidebar": "healthKareAI"
+    },
+    "HealthKareAI/update_password": {
+      "id": "HealthKareAI/update_password",
+      "title": "Update User Password API",
+      "description": "Endpoint",
+      "sidebar": "healthKareAI"
+    },
+    "HealthKareAI/update_phone": {
+      "id": "HealthKareAI/update_phone",
+      "title": "Update User Phone API",
+      "description": "Endpoint",
+      "sidebar": "healthKareAI"
+    },
+    "HealthKareAI/update_role": {
+      "id": "HealthKareAI/update_role",
+      "title": "Update User Role API",
+      "description": "Endpoint",
+      "sidebar": "healthKareAI"
+    },
+    "HealthKareAI/verifyOTP": {
+      "id": "HealthKareAI/verifyOTP",
+      "title": "OTP Verification API",
+      "description": "- Endpoint: /auth/verifyOTP",
+      "sidebar": "healthKareAI"
+    },
     "intro": {
       "id": "intro",
       "title": "intor",

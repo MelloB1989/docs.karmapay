@@ -20,6 +20,238 @@
           "contentPathLocalized": "/home/coder/code/docs.noobsverse/i18n/en/docusaurus-plugin-content-docs/current",
           "docs": [
             {
+              "id": "HealthKareAI/error_codes",
+              "title": "Error Codes and Security",
+              "description": "- 401 Unauthorized: Authentication failed due to incorrect credentials or OTP.",
+              "source": "@site/docs/HealthKareAI/error_codes.md",
+              "sourceDirName": "HealthKareAI",
+              "slug": "/HealthKareAI/error_codes",
+              "permalink": "/docs/HealthKareAI/error_codes",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/mellob1989/docs.noobsverse/tree/main/docs/HealthKareAI/error_codes.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "healthKareAI",
+              "previous": {
+                "title": "Get User Details API",
+                "permalink": "/docs/HealthKareAI/get_user"
+              }
+            },
+            {
+              "id": "HealthKareAI/get_user",
+              "title": "Get User Details API",
+              "description": "Endpoint",
+              "source": "@site/docs/HealthKareAI/get_user.md",
+              "sourceDirName": "HealthKareAI",
+              "slug": "/HealthKareAI/get_user",
+              "permalink": "/docs/HealthKareAI/get_user",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/mellob1989/docs.noobsverse/tree/main/docs/HealthKareAI/get_user.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "healthKareAI",
+              "previous": {
+                "title": "Update User Role API",
+                "permalink": "/docs/HealthKareAI/update_role"
+              },
+              "next": {
+                "title": "Error Codes and Security",
+                "permalink": "/docs/HealthKareAI/error_codes"
+              }
+            },
+            {
+              "id": "HealthKareAI/login",
+              "title": "Login API",
+              "description": "- Endpoint: /auth/login",
+              "source": "@site/docs/HealthKareAI/login.md",
+              "sourceDirName": "HealthKareAI",
+              "slug": "/HealthKareAI/login",
+              "permalink": "/docs/HealthKareAI/login",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/mellob1989/docs.noobsverse/tree/main/docs/HealthKareAI/login.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "healthKareAI",
+              "next": {
+                "title": "Register API",
+                "permalink": "/docs/HealthKareAI/register"
+              }
+            },
+            {
+              "id": "HealthKareAI/register",
+              "title": "Register API",
+              "description": "- Endpoint: /auth/register",
+              "source": "@site/docs/HealthKareAI/register.md",
+              "sourceDirName": "HealthKareAI",
+              "slug": "/HealthKareAI/register",
+              "permalink": "/docs/HealthKareAI/register",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/mellob1989/docs.noobsverse/tree/main/docs/HealthKareAI/register.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "healthKareAI",
+              "previous": {
+                "title": "Login API",
+                "permalink": "/docs/HealthKareAI/login"
+              },
+              "next": {
+                "title": "OTP Verification API",
+                "permalink": "/docs/HealthKareAI/verifyOTP"
+              }
+            },
+            {
+              "id": "HealthKareAI/update_city",
+              "title": "Update User City API",
+              "description": "Endpoint",
+              "source": "@site/docs/HealthKareAI/update_city.md",
+              "sourceDirName": "HealthKareAI",
+              "slug": "/HealthKareAI/update_city",
+              "permalink": "/docs/HealthKareAI/update_city",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/mellob1989/docs.noobsverse/tree/main/docs/HealthKareAI/update_city.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "healthKareAI",
+              "previous": {
+                "title": "Update User Password API",
+                "permalink": "/docs/HealthKareAI/update_password"
+              },
+              "next": {
+                "title": "Update User Role API",
+                "permalink": "/docs/HealthKareAI/update_role"
+              }
+            },
+            {
+              "id": "HealthKareAI/update_email",
+              "title": "Update User Email API",
+              "description": "Endpoint",
+              "source": "@site/docs/HealthKareAI/update_email.md",
+              "sourceDirName": "HealthKareAI",
+              "slug": "/HealthKareAI/update_email",
+              "permalink": "/docs/HealthKareAI/update_email",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/mellob1989/docs.noobsverse/tree/main/docs/HealthKareAI/update_email.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "healthKareAI",
+              "previous": {
+                "title": "Update User Phone API",
+                "permalink": "/docs/HealthKareAI/update_phone"
+              },
+              "next": {
+                "title": "Update User Password API",
+                "permalink": "/docs/HealthKareAI/update_password"
+              }
+            },
+            {
+              "id": "HealthKareAI/update_password",
+              "title": "Update User Password API",
+              "description": "Endpoint",
+              "source": "@site/docs/HealthKareAI/update_password.md",
+              "sourceDirName": "HealthKareAI",
+              "slug": "/HealthKareAI/update_password",
+              "permalink": "/docs/HealthKareAI/update_password",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/mellob1989/docs.noobsverse/tree/main/docs/HealthKareAI/update_password.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "healthKareAI",
+              "previous": {
+                "title": "Update User Email API",
+                "permalink": "/docs/HealthKareAI/update_email"
+              },
+              "next": {
+                "title": "Update User City API",
+                "permalink": "/docs/HealthKareAI/update_city"
+              }
+            },
+            {
+              "id": "HealthKareAI/update_phone",
+              "title": "Update User Phone API",
+              "description": "Endpoint",
+              "source": "@site/docs/HealthKareAI/update_phone.md",
+              "sourceDirName": "HealthKareAI",
+              "slug": "/HealthKareAI/update_phone",
+              "permalink": "/docs/HealthKareAI/update_phone",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/mellob1989/docs.noobsverse/tree/main/docs/HealthKareAI/update_phone.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "healthKareAI",
+              "previous": {
+                "title": "OTP Verification API",
+                "permalink": "/docs/HealthKareAI/verifyOTP"
+              },
+              "next": {
+                "title": "Update User Email API",
+                "permalink": "/docs/HealthKareAI/update_email"
+              }
+            },
+            {
+              "id": "HealthKareAI/update_role",
+              "title": "Update User Role API",
+              "description": "Endpoint",
+              "source": "@site/docs/HealthKareAI/update_role.md",
+              "sourceDirName": "HealthKareAI",
+              "slug": "/HealthKareAI/update_role",
+              "permalink": "/docs/HealthKareAI/update_role",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/mellob1989/docs.noobsverse/tree/main/docs/HealthKareAI/update_role.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "healthKareAI",
+              "previous": {
+                "title": "Update User City API",
+                "permalink": "/docs/HealthKareAI/update_city"
+              },
+              "next": {
+                "title": "Get User Details API",
+                "permalink": "/docs/HealthKareAI/get_user"
+              }
+            },
+            {
+              "id": "HealthKareAI/verifyOTP",
+              "title": "OTP Verification API",
+              "description": "- Endpoint: /auth/verifyOTP",
+              "source": "@site/docs/HealthKareAI/verifyOTP.md",
+              "sourceDirName": "HealthKareAI",
+              "slug": "/HealthKareAI/verifyOTP",
+              "permalink": "/docs/HealthKareAI/verifyOTP",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/mellob1989/docs.noobsverse/tree/main/docs/HealthKareAI/verifyOTP.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "healthKareAI",
+              "previous": {
+                "title": "Register API",
+                "permalink": "/docs/HealthKareAI/register"
+              },
+              "next": {
+                "title": "Update User Phone API",
+                "permalink": "/docs/HealthKareAI/update_phone"
+              }
+            },
+            {
               "id": "intro",
               "title": "intor",
               "description": "",
@@ -361,6 +593,72 @@
                   {
                     "type": "doc",
                     "id": "karmapay/api-documentation/create-order"
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
+              }
+            ],
+            "healthKareAI": [
+              {
+                "type": "category",
+                "label": "HealthKareAI AUTH APIs",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "HealthKareAI/login"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "HealthKareAI/register"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "HealthKareAI/verifyOTP"
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
+              },
+              {
+                "type": "category",
+                "label": "HealthKareAI User APIs",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "HealthKareAI/update_phone"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "HealthKareAI/update_email"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "HealthKareAI/update_password"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "HealthKareAI/update_city"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "HealthKareAI/update_role"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "HealthKareAI/get_user"
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
+              },
+              {
+                "type": "category",
+                "label": "Error Codes",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "HealthKareAI/error_codes"
                   }
                 ],
                 "collapsed": true,

@@ -1,0 +1,24 @@
+{
+  "id": "HealthKareAI/register",
+  "title": "Register API",
+  "description": "- Endpoint: /auth/register",
+  "source": "@site/docs/HealthKareAI/register.md",
+  "sourceDirName": "HealthKareAI",
+  "slug": "/HealthKareAI/register",
+  "permalink": "/docs/HealthKareAI/register",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/mellob1989/docs.noobsverse/tree/main/docs/HealthKareAI/register.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "healthKareAI",
+  "previous": {
+    "title": "Login API",
+    "permalink": "/docs/HealthKareAI/login"
+  },
+  "next": {
+    "title": "OTP Verification API",
+    "permalink": "/docs/HealthKareAI/verifyOTP"
+  }
+}

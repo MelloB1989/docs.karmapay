@@ -11,6 +11,56 @@
           "mainDocId": "karmapay/karmapay",
           "docs": [
             {
+              "id": "HealthKareAI/error_codes",
+              "path": "/docs/HealthKareAI/error_codes",
+              "sidebar": "healthKareAI"
+            },
+            {
+              "id": "HealthKareAI/get_user",
+              "path": "/docs/HealthKareAI/get_user",
+              "sidebar": "healthKareAI"
+            },
+            {
+              "id": "HealthKareAI/login",
+              "path": "/docs/HealthKareAI/login",
+              "sidebar": "healthKareAI"
+            },
+            {
+              "id": "HealthKareAI/register",
+              "path": "/docs/HealthKareAI/register",
+              "sidebar": "healthKareAI"
+            },
+            {
+              "id": "HealthKareAI/update_city",
+              "path": "/docs/HealthKareAI/update_city",
+              "sidebar": "healthKareAI"
+            },
+            {
+              "id": "HealthKareAI/update_email",
+              "path": "/docs/HealthKareAI/update_email",
+              "sidebar": "healthKareAI"
+            },
+            {
+              "id": "HealthKareAI/update_password",
+              "path": "/docs/HealthKareAI/update_password",
+              "sidebar": "healthKareAI"
+            },
+            {
+              "id": "HealthKareAI/update_phone",
+              "path": "/docs/HealthKareAI/update_phone",
+              "sidebar": "healthKareAI"
+            },
+            {
+              "id": "HealthKareAI/update_role",
+              "path": "/docs/HealthKareAI/update_role",
+              "sidebar": "healthKareAI"
+            },
+            {
+              "id": "HealthKareAI/verifyOTP",
+              "path": "/docs/HealthKareAI/verifyOTP",
+              "sidebar": "healthKareAI"
+            },
+            {
               "id": "intro",
               "path": "/docs/intro"
             },
@@ -80,6 +130,12 @@
               "link": {
                 "path": "/docs/karmapay/",
                 "label": "karmapay/karmapay"
+              }
+            },
+            "healthKareAI": {
+              "link": {
+                "path": "/docs/HealthKareAI/login",
+                "label": "HealthKareAI/login"
               }
             }
           }

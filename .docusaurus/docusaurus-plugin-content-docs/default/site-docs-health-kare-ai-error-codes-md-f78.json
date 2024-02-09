@@ -1,0 +1,20 @@
+{
+  "id": "HealthKareAI/error_codes",
+  "title": "Error Codes and Security",
+  "description": "- 401 Unauthorized: Authentication failed due to incorrect credentials or OTP.",
+  "source": "@site/docs/HealthKareAI/error_codes.md",
+  "sourceDirName": "HealthKareAI",
+  "slug": "/HealthKareAI/error_codes",
+  "permalink": "/docs/HealthKareAI/error_codes",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/mellob1989/docs.noobsverse/tree/main/docs/HealthKareAI/error_codes.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "healthKareAI",
+  "previous": {
+    "title": "Get User Details API",
+    "permalink": "/docs/HealthKareAI/get_user"
+  }
+}

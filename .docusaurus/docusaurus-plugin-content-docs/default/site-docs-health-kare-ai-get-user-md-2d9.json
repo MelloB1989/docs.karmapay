@@ -1,0 +1,24 @@
+{
+  "id": "HealthKareAI/get_user",
+  "title": "Get User Details API",
+  "description": "Endpoint",
+  "source": "@site/docs/HealthKareAI/get_user.md",
+  "sourceDirName": "HealthKareAI",
+  "slug": "/HealthKareAI/get_user",
+  "permalink": "/docs/HealthKareAI/get_user",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/mellob1989/docs.noobsverse/tree/main/docs/HealthKareAI/get_user.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "healthKareAI",
+  "previous": {
+    "title": "Update User Role API",
+    "permalink": "/docs/HealthKareAI/update_role"
+  },
+  "next": {
+    "title": "Error Codes and Security",
+    "permalink": "/docs/HealthKareAI/error_codes"
+  }
+}
