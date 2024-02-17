@@ -29,7 +29,6 @@ export default function Home() {
       description="Documentation of opensource projects of Noobsverse">
       <HomepageHeader />
       <main>
-        <HomepageFeatures />
       </main>
     </Layout>
   );
