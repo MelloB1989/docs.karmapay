@@ -1,0 +1,24 @@
+{
+  "id": "HealthKareAI/doctor/verifyOTP",
+  "title": "Verify Doctor OTP API",
+  "description": "POST /v1/doctor/otpVerify",
+  "source": "@site/docs/HealthKareAI/doctor/verifyOTP.md",
+  "sourceDirName": "HealthKareAI/doctor",
+  "slug": "/HealthKareAI/doctor/verifyOTP",
+  "permalink": "/docs/HealthKareAI/doctor/verifyOTP",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/mellob1989/docs.noobsverse/tree/main/docs/HealthKareAI/doctor/verifyOTP.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "healthKareAI",
+  "previous": {
+    "title": "Register Doctor API",
+    "permalink": "/docs/HealthKareAI/doctor/register"
+  },
+  "next": {
+    "title": "Hospital Login API",
+    "permalink": "/docs/HealthKareAI/hospital/login"
+  }
+}

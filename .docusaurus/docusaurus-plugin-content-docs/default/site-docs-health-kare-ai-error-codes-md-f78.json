@@ -14,7 +14,7 @@
   "frontMatter": {},
   "sidebar": "healthKareAI",
   "previous": {
-    "title": "Get User Details API",
-    "permalink": "/docs/HealthKareAI/get_user"
+    "title": "Get Hospital Details API",
+    "permalink": "/docs/HealthKareAI/hospital/getDetails"
   }
 }

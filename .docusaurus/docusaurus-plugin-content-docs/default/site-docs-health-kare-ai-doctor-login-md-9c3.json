@@ -1,0 +1,24 @@
+{
+  "id": "HealthKareAI/doctor/login",
+  "title": "Doctor Login API",
+  "description": "POST /v1/doctor/login",
+  "source": "@site/docs/HealthKareAI/doctor/login.md",
+  "sourceDirName": "HealthKareAI/doctor",
+  "slug": "/HealthKareAI/doctor/login",
+  "permalink": "/docs/HealthKareAI/doctor/login",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/mellob1989/docs.noobsverse/tree/main/docs/HealthKareAI/doctor/login.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "healthKareAI",
+  "previous": {
+    "title": "Get User Details API",
+    "permalink": "/docs/HealthKareAI/get_user"
+  },
+  "next": {
+    "title": "Register Doctor API",
+    "permalink": "/docs/HealthKareAI/doctor/register"
+  }
+}

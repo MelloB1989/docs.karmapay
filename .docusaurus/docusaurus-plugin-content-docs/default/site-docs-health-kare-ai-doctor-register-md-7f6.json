@@ -1,0 +1,24 @@
+{
+  "id": "HealthKareAI/doctor/register",
+  "title": "Register Doctor API",
+  "description": "POST /v1/doctor/register",
+  "source": "@site/docs/HealthKareAI/doctor/register.md",
+  "sourceDirName": "HealthKareAI/doctor",
+  "slug": "/HealthKareAI/doctor/register",
+  "permalink": "/docs/HealthKareAI/doctor/register",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/mellob1989/docs.noobsverse/tree/main/docs/HealthKareAI/doctor/register.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "healthKareAI",
+  "previous": {
+    "title": "Doctor Login API",
+    "permalink": "/docs/HealthKareAI/doctor/login"
+  },
+  "next": {
+    "title": "Verify Doctor OTP API",
+    "permalink": "/docs/HealthKareAI/doctor/verifyOTP"
+  }
+}

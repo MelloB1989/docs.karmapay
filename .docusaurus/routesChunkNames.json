@@ -127,18 +127,30 @@
     },
     "content": "content---markdown-page-393-028"
   },
-  "/docs-5e3": {
+  "/docs-234": {
     "__comp": "__comp---theme-docs-root-5-e-9-0b6",
     "__context": {
       "plugin": "plugin---docse-0-e-a62"
     }
   },
-  "/docs-d66": {
+  "/docs-7f1": {
     "__comp": "__comp---theme-doc-version-roota-7-b-5de",
     "version": "version---docs-935-398"
   },
-  "/docs-a3b": {
+  "/docs-051": {
     "__comp": "__comp---theme-doc-roota-94-67a"
+  },
+  "/docs/HealthKareAI/doctor/login-9bf": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-health-kare-ai-doctor-login-9-c-3-367"
+  },
+  "/docs/HealthKareAI/doctor/register-cb8": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-health-kare-ai-doctor-register-7-f-6-066"
+  },
+  "/docs/HealthKareAI/doctor/verifyOTP-9c7": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-health-kare-ai-doctor-verify-otp-14-a-a1a"
   },
   "/docs/HealthKareAI/error_codes-17b": {
     "__comp": "__comp---theme-doc-item-178-a40",
@@ -147,6 +159,22 @@
   "/docs/HealthKareAI/get_user-63b": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-health-kare-ai-get-user-2-d-9-282"
+  },
+  "/docs/HealthKareAI/hospital/getDetails-73c": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-health-kare-ai-hospital-get-detailsc-14-3ad"
+  },
+  "/docs/HealthKareAI/hospital/login-3ae": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-health-kare-ai-hospital-logine-8-d-e9c"
+  },
+  "/docs/HealthKareAI/hospital/register-bc2": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-health-kare-ai-hospital-register-78-e-289"
+  },
+  "/docs/HealthKareAI/hospital/verifyOTP-8e3": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-health-kare-ai-hospital-verify-otp-3-e-9-37c"
   },
   "/docs/HealthKareAI/login-5f6": {
     "__comp": "__comp---theme-doc-item-178-a40",

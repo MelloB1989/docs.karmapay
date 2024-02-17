@@ -1,0 +1,24 @@
+{
+  "id": "HealthKareAI/hospital/register",
+  "title": "Register Hospital API",
+  "description": "POST /v1/hospital/register",
+  "source": "@site/docs/HealthKareAI/hospital/register.md",
+  "sourceDirName": "HealthKareAI/hospital",
+  "slug": "/HealthKareAI/hospital/register",
+  "permalink": "/docs/HealthKareAI/hospital/register",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/mellob1989/docs.noobsverse/tree/main/docs/HealthKareAI/hospital/register.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "healthKareAI",
+  "previous": {
+    "title": "Hospital Login API",
+    "permalink": "/docs/HealthKareAI/hospital/login"
+  },
+  "next": {
+    "title": "Verify Hospital OTP API",
+    "permalink": "/docs/HealthKareAI/hospital/verifyOTP"
+  }
+}

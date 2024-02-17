@@ -18,7 +18,7 @@
     "permalink": "/docs/HealthKareAI/update_role"
   },
   "next": {
-    "title": "Error Codes and Security",
-    "permalink": "/docs/HealthKareAI/error_codes"
+    "title": "Doctor Login API",
+    "permalink": "/docs/HealthKareAI/doctor/login"
   }
 }

@@ -11,6 +11,21 @@
           "mainDocId": "karmapay/karmapay",
           "docs": [
             {
+              "id": "HealthKareAI/doctor/login",
+              "path": "/docs/HealthKareAI/doctor/login",
+              "sidebar": "healthKareAI"
+            },
+            {
+              "id": "HealthKareAI/doctor/register",
+              "path": "/docs/HealthKareAI/doctor/register",
+              "sidebar": "healthKareAI"
+            },
+            {
+              "id": "HealthKareAI/doctor/verifyOTP",
+              "path": "/docs/HealthKareAI/doctor/verifyOTP",
+              "sidebar": "healthKareAI"
+            },
+            {
               "id": "HealthKareAI/error_codes",
               "path": "/docs/HealthKareAI/error_codes",
               "sidebar": "healthKareAI"
@@ -18,6 +33,26 @@
             {
               "id": "HealthKareAI/get_user",
               "path": "/docs/HealthKareAI/get_user",
+              "sidebar": "healthKareAI"
+            },
+            {
+              "id": "HealthKareAI/hospital/getDetails",
+              "path": "/docs/HealthKareAI/hospital/getDetails",
+              "sidebar": "healthKareAI"
+            },
+            {
+              "id": "HealthKareAI/hospital/login",
+              "path": "/docs/HealthKareAI/hospital/login",
+              "sidebar": "healthKareAI"
+            },
+            {
+              "id": "HealthKareAI/hospital/register",
+              "path": "/docs/HealthKareAI/hospital/register",
+              "sidebar": "healthKareAI"
+            },
+            {
+              "id": "HealthKareAI/hospital/verifyOTP",
+              "path": "/docs/HealthKareAI/hospital/verifyOTP",
               "sidebar": "healthKareAI"
             },
             {

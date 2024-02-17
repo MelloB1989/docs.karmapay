@@ -20,6 +20,78 @@
           "contentPathLocalized": "/home/coder/code/docs.noobsverse/i18n/en/docusaurus-plugin-content-docs/current",
           "docs": [
             {
+              "id": "HealthKareAI/doctor/login",
+              "title": "Doctor Login API",
+              "description": "POST /v1/doctor/login",
+              "source": "@site/docs/HealthKareAI/doctor/login.md",
+              "sourceDirName": "HealthKareAI/doctor",
+              "slug": "/HealthKareAI/doctor/login",
+              "permalink": "/docs/HealthKareAI/doctor/login",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/mellob1989/docs.noobsverse/tree/main/docs/HealthKareAI/doctor/login.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "healthKareAI",
+              "previous": {
+                "title": "Get User Details API",
+                "permalink": "/docs/HealthKareAI/get_user"
+              },
+              "next": {
+                "title": "Register Doctor API",
+                "permalink": "/docs/HealthKareAI/doctor/register"
+              }
+            },
+            {
+              "id": "HealthKareAI/doctor/register",
+              "title": "Register Doctor API",
+              "description": "POST /v1/doctor/register",
+              "source": "@site/docs/HealthKareAI/doctor/register.md",
+              "sourceDirName": "HealthKareAI/doctor",
+              "slug": "/HealthKareAI/doctor/register",
+              "permalink": "/docs/HealthKareAI/doctor/register",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/mellob1989/docs.noobsverse/tree/main/docs/HealthKareAI/doctor/register.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "healthKareAI",
+              "previous": {
+                "title": "Doctor Login API",
+                "permalink": "/docs/HealthKareAI/doctor/login"
+              },
+              "next": {
+                "title": "Verify Doctor OTP API",
+                "permalink": "/docs/HealthKareAI/doctor/verifyOTP"
+              }
+            },
+            {
+              "id": "HealthKareAI/doctor/verifyOTP",
+              "title": "Verify Doctor OTP API",
+              "description": "POST /v1/doctor/otpVerify",
+              "source": "@site/docs/HealthKareAI/doctor/verifyOTP.md",
+              "sourceDirName": "HealthKareAI/doctor",
+              "slug": "/HealthKareAI/doctor/verifyOTP",
+              "permalink": "/docs/HealthKareAI/doctor/verifyOTP",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/mellob1989/docs.noobsverse/tree/main/docs/HealthKareAI/doctor/verifyOTP.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "healthKareAI",
+              "previous": {
+                "title": "Register Doctor API",
+                "permalink": "/docs/HealthKareAI/doctor/register"
+              },
+              "next": {
+                "title": "Hospital Login API",
+                "permalink": "/docs/HealthKareAI/hospital/login"
+              }
+            },
+            {
               "id": "HealthKareAI/error_codes",
               "title": "Error Codes and Security",
               "description": "- 401 Unauthorized: Authentication failed due to incorrect credentials or OTP.",
@@ -35,8 +107,8 @@
               "frontMatter": {},
               "sidebar": "healthKareAI",
               "previous": {
-                "title": "Get User Details API",
-                "permalink": "/docs/HealthKareAI/get_user"
+                "title": "Get Hospital Details API",
+                "permalink": "/docs/HealthKareAI/hospital/getDetails"
               }
             },
             {
@@ -59,8 +131,104 @@
                 "permalink": "/docs/HealthKareAI/update_role"
               },
               "next": {
+                "title": "Doctor Login API",
+                "permalink": "/docs/HealthKareAI/doctor/login"
+              }
+            },
+            {
+              "id": "HealthKareAI/hospital/getDetails",
+              "title": "Get Hospital Details API",
+              "description": "POST /v1/hospital/details",
+              "source": "@site/docs/HealthKareAI/hospital/getDetails.md",
+              "sourceDirName": "HealthKareAI/hospital",
+              "slug": "/HealthKareAI/hospital/getDetails",
+              "permalink": "/docs/HealthKareAI/hospital/getDetails",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/mellob1989/docs.noobsverse/tree/main/docs/HealthKareAI/hospital/getDetails.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "healthKareAI",
+              "previous": {
+                "title": "Verify Hospital OTP API",
+                "permalink": "/docs/HealthKareAI/hospital/verifyOTP"
+              },
+              "next": {
                 "title": "Error Codes and Security",
                 "permalink": "/docs/HealthKareAI/error_codes"
+              }
+            },
+            {
+              "id": "HealthKareAI/hospital/login",
+              "title": "Hospital Login API",
+              "description": "POST /v1/hospital/login",
+              "source": "@site/docs/HealthKareAI/hospital/login.md",
+              "sourceDirName": "HealthKareAI/hospital",
+              "slug": "/HealthKareAI/hospital/login",
+              "permalink": "/docs/HealthKareAI/hospital/login",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/mellob1989/docs.noobsverse/tree/main/docs/HealthKareAI/hospital/login.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "healthKareAI",
+              "previous": {
+                "title": "Verify Doctor OTP API",
+                "permalink": "/docs/HealthKareAI/doctor/verifyOTP"
+              },
+              "next": {
+                "title": "Register Hospital API",
+                "permalink": "/docs/HealthKareAI/hospital/register"
+              }
+            },
+            {
+              "id": "HealthKareAI/hospital/register",
+              "title": "Register Hospital API",
+              "description": "POST /v1/hospital/register",
+              "source": "@site/docs/HealthKareAI/hospital/register.md",
+              "sourceDirName": "HealthKareAI/hospital",
+              "slug": "/HealthKareAI/hospital/register",
+              "permalink": "/docs/HealthKareAI/hospital/register",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/mellob1989/docs.noobsverse/tree/main/docs/HealthKareAI/hospital/register.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "healthKareAI",
+              "previous": {
+                "title": "Hospital Login API",
+                "permalink": "/docs/HealthKareAI/hospital/login"
+              },
+              "next": {
+                "title": "Verify Hospital OTP API",
+                "permalink": "/docs/HealthKareAI/hospital/verifyOTP"
+              }
+            },
+            {
+              "id": "HealthKareAI/hospital/verifyOTP",
+              "title": "Verify Hospital OTP API",
+              "description": "POST /v1/hospital/otpVerify",
+              "source": "@site/docs/HealthKareAI/hospital/verifyOTP.md",
+              "sourceDirName": "HealthKareAI/hospital",
+              "slug": "/HealthKareAI/hospital/verifyOTP",
+              "permalink": "/docs/HealthKareAI/hospital/verifyOTP",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/mellob1989/docs.noobsverse/tree/main/docs/HealthKareAI/hospital/verifyOTP.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "healthKareAI",
+              "previous": {
+                "title": "Register Hospital API",
+                "permalink": "/docs/HealthKareAI/hospital/register"
+              },
+              "next": {
+                "title": "Get Hospital Details API",
+                "permalink": "/docs/HealthKareAI/hospital/getDetails"
               }
             },
             {
@@ -647,6 +815,50 @@
                   {
                     "type": "doc",
                     "id": "HealthKareAI/get_user"
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
+              },
+              {
+                "type": "category",
+                "label": "Doctor APIs",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "HealthKareAI/doctor/login"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "HealthKareAI/doctor/register"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "HealthKareAI/doctor/verifyOTP"
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
+              },
+              {
+                "type": "category",
+                "label": "Hospital APIs",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "HealthKareAI/hospital/login"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "HealthKareAI/hospital/register"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "HealthKareAI/hospital/verifyOTP"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "HealthKareAI/hospital/getDetails"
                   }
                 ],
                 "collapsed": true,

@@ -173,6 +173,71 @@
       },
       {
         "type": "category",
+        "label": "Doctor APIs",
+        "items": [
+          {
+            "type": "link",
+            "label": "Doctor Login API",
+            "href": "/docs/HealthKareAI/doctor/login",
+            "docId": "HealthKareAI/doctor/login",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Register Doctor API",
+            "href": "/docs/HealthKareAI/doctor/register",
+            "docId": "HealthKareAI/doctor/register",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Verify Doctor OTP API",
+            "href": "/docs/HealthKareAI/doctor/verifyOTP",
+            "docId": "HealthKareAI/doctor/verifyOTP",
+            "unlisted": false
+          }
+        ],
+        "collapsed": true,
+        "collapsible": true
+      },
+      {
+        "type": "category",
+        "label": "Hospital APIs",
+        "items": [
+          {
+            "type": "link",
+            "label": "Hospital Login API",
+            "href": "/docs/HealthKareAI/hospital/login",
+            "docId": "HealthKareAI/hospital/login",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Register Hospital API",
+            "href": "/docs/HealthKareAI/hospital/register",
+            "docId": "HealthKareAI/hospital/register",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Verify Hospital OTP API",
+            "href": "/docs/HealthKareAI/hospital/verifyOTP",
+            "docId": "HealthKareAI/hospital/verifyOTP",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Get Hospital Details API",
+            "href": "/docs/HealthKareAI/hospital/getDetails",
+            "docId": "HealthKareAI/hospital/getDetails",
+            "unlisted": false
+          }
+        ],
+        "collapsed": true,
+        "collapsible": true
+      },
+      {
+        "type": "category",
         "label": "Error Codes",
         "items": [
           {
@@ -189,6 +254,24 @@
     ]
   },
   "docs": {
+    "HealthKareAI/doctor/login": {
+      "id": "HealthKareAI/doctor/login",
+      "title": "Doctor Login API",
+      "description": "POST /v1/doctor/login",
+      "sidebar": "healthKareAI"
+    },
+    "HealthKareAI/doctor/register": {
+      "id": "HealthKareAI/doctor/register",
+      "title": "Register Doctor API",
+      "description": "POST /v1/doctor/register",
+      "sidebar": "healthKareAI"
+    },
+    "HealthKareAI/doctor/verifyOTP": {
+      "id": "HealthKareAI/doctor/verifyOTP",
+      "title": "Verify Doctor OTP API",
+      "description": "POST /v1/doctor/otpVerify",
+      "sidebar": "healthKareAI"
+    },
     "HealthKareAI/error_codes": {
       "id": "HealthKareAI/error_codes",
       "title": "Error Codes and Security",
@@ -199,6 +282,30 @@
       "id": "HealthKareAI/get_user",
       "title": "Get User Details API",
       "description": "Endpoint",
+      "sidebar": "healthKareAI"
+    },
+    "HealthKareAI/hospital/getDetails": {
+      "id": "HealthKareAI/hospital/getDetails",
+      "title": "Get Hospital Details API",
+      "description": "POST /v1/hospital/details",
+      "sidebar": "healthKareAI"
+    },
+    "HealthKareAI/hospital/login": {
+      "id": "HealthKareAI/hospital/login",
+      "title": "Hospital Login API",
+      "description": "POST /v1/hospital/login",
+      "sidebar": "healthKareAI"
+    },
+    "HealthKareAI/hospital/register": {
+      "id": "HealthKareAI/hospital/register",
+      "title": "Register Hospital API",
+      "description": "POST /v1/hospital/register",
+      "sidebar": "healthKareAI"
+    },
+    "HealthKareAI/hospital/verifyOTP": {
+      "id": "HealthKareAI/hospital/verifyOTP",
+      "title": "Verify Hospital OTP API",
+      "description": "POST /v1/hospital/otpVerify",
       "sidebar": "healthKareAI"
     },
     "HealthKareAI/login": {

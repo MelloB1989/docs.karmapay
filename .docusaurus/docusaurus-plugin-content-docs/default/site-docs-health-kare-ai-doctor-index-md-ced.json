@@ -1,0 +1,15 @@
+{
+  "id": "HealthKareAI/doctor/index",
+  "title": "index",
+  "description": "",
+  "source": "@site/docs/HealthKareAI/doctor/index.md",
+  "sourceDirName": "HealthKareAI/doctor",
+  "slug": "/HealthKareAI/doctor/",
+  "permalink": "/docs/HealthKareAI/doctor/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/mellob1989/docs.noobsverse/tree/main/docs/HealthKareAI/doctor/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

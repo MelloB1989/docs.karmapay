@@ -51,6 +51,16 @@ const sidebars = {
     },
     {
       type: 'category',
+      label: 'Doctor APIs',
+      items: ['HealthKareAI/doctor/login', 'HealthKareAI/doctor/register', 'HealthKareAI/doctor/verifyOTP']
+    },
+    {
+      type: 'category',
+      label: 'Hospital APIs',
+      items: ['HealthKareAI/hospital/login', 'HealthKareAI/hospital/register', 'HealthKareAI/hospital/verifyOTP', 'HealthKareAI/hospital/getDetails']
+    },
+    {
+      type: 'category',
       label: 'Error Codes',
       items: ['HealthKareAI/error_codes'],
     }
