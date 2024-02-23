@@ -41,13 +41,13 @@ const sidebars = {
   healthKareAI: [
     {
       type: 'category',
-      label: 'HealthKareAI AUTH APIs',
-      items: ['HealthKareAI/login', 'HealthKareAI/register', 'HealthKareAI/verifyOTP'],
+      label: 'HealthKareAI User APIs',
+      items: ['HealthKareAI/User-App/login', 'HealthKareAI/User-App/register', 'HealthKareAI/User-App/updateUserDetails', 'HealthKareAI/User-App/verifyOTP'],
     },
     {
       type: 'category',
-      label: 'HealthKareAI User APIs',
-      items: ['HealthKareAI/update_phone', 'HealthKareAI/update_email', 'HealthKareAI/update_password', 'HealthKareAI/update_city', 'HealthKareAI/update_role', 'HealthKareAI/get_user'],
+      label: 'HealthKareAI User-Family APIs',
+      items: ['HealthKareAI/User-App/family/addUserToFamily', 'HealthKareAI/User-App/family/createFamily', 'HealthKareAI/User-App/family/getFamilyAppointments', 'HealthKareAI/User-App/family/getFamilyMembers', 'HealthKareAI/User-App/family/getFamilyPrescriptions', 'HealthKareAI/User-App/family/updateFamilyMemberDetails'],
     },
     {
       type: 'category',

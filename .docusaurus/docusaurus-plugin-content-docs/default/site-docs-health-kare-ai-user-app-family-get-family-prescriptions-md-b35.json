@@ -1,0 +1,24 @@
+{
+  "id": "HealthKareAI/User-App/family/getFamilyPrescriptions",
+  "title": "Get Family Prescriptions",
+  "description": "- Endpoint: /family/prescriptions",
+  "source": "@site/docs/HealthKareAI/User-App/family/getFamilyPrescriptions.md",
+  "sourceDirName": "HealthKareAI/User-App/family",
+  "slug": "/HealthKareAI/User-App/family/getFamilyPrescriptions",
+  "permalink": "/docs/HealthKareAI/User-App/family/getFamilyPrescriptions",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/mellob1989/docs.noobsverse/tree/main/docs/HealthKareAI/User-App/family/getFamilyPrescriptions.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "healthKareAI",
+  "previous": {
+    "title": "Get family members",
+    "permalink": "/docs/HealthKareAI/User-App/family/getFamilyMembers"
+  },
+  "next": {
+    "title": "Update Family Member Details",
+    "permalink": "/docs/HealthKareAI/User-App/family/updateFamilyMemberDetails"
+  }
+}

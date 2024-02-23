@@ -94,27 +94,34 @@
     "healthKareAI": [
       {
         "type": "category",
-        "label": "HealthKareAI AUTH APIs",
+        "label": "HealthKareAI User APIs",
         "items": [
           {
             "type": "link",
             "label": "Login API",
-            "href": "/docs/HealthKareAI/login",
-            "docId": "HealthKareAI/login",
+            "href": "/docs/HealthKareAI/User-App/login",
+            "docId": "HealthKareAI/User-App/login",
             "unlisted": false
           },
           {
             "type": "link",
             "label": "Register API",
-            "href": "/docs/HealthKareAI/register",
-            "docId": "HealthKareAI/register",
+            "href": "/docs/HealthKareAI/User-App/register",
+            "docId": "HealthKareAI/User-App/register",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Update User",
+            "href": "/docs/HealthKareAI/User-App/updateUserDetails",
+            "docId": "HealthKareAI/User-App/updateUserDetails",
             "unlisted": false
           },
           {
             "type": "link",
             "label": "OTP Verification API",
-            "href": "/docs/HealthKareAI/verifyOTP",
-            "docId": "HealthKareAI/verifyOTP",
+            "href": "/docs/HealthKareAI/User-App/verifyOTP",
+            "docId": "HealthKareAI/User-App/verifyOTP",
             "unlisted": false
           }
         ],
@@ -123,48 +130,48 @@
       },
       {
         "type": "category",
-        "label": "HealthKareAI User APIs",
+        "label": "HealthKareAI User-Family APIs",
         "items": [
           {
             "type": "link",
-            "label": "Update User Phone API",
-            "href": "/docs/HealthKareAI/update_phone",
-            "docId": "HealthKareAI/update_phone",
+            "label": "Add family member",
+            "href": "/docs/HealthKareAI/User-App/family/addUserToFamily",
+            "docId": "HealthKareAI/User-App/family/addUserToFamily",
             "unlisted": false
           },
           {
             "type": "link",
-            "label": "Update User Email API",
-            "href": "/docs/HealthKareAI/update_email",
-            "docId": "HealthKareAI/update_email",
+            "label": "Create Family",
+            "href": "/docs/HealthKareAI/User-App/family/createFamily",
+            "docId": "HealthKareAI/User-App/family/createFamily",
             "unlisted": false
           },
           {
             "type": "link",
-            "label": "Update User Password API",
-            "href": "/docs/HealthKareAI/update_password",
-            "docId": "HealthKareAI/update_password",
+            "label": "Get Family Appointments",
+            "href": "/docs/HealthKareAI/User-App/family/getFamilyAppointments",
+            "docId": "HealthKareAI/User-App/family/getFamilyAppointments",
             "unlisted": false
           },
           {
             "type": "link",
-            "label": "Update User City API",
-            "href": "/docs/HealthKareAI/update_city",
-            "docId": "HealthKareAI/update_city",
+            "label": "Get family members",
+            "href": "/docs/HealthKareAI/User-App/family/getFamilyMembers",
+            "docId": "HealthKareAI/User-App/family/getFamilyMembers",
             "unlisted": false
           },
           {
             "type": "link",
-            "label": "Update User Role API",
-            "href": "/docs/HealthKareAI/update_role",
-            "docId": "HealthKareAI/update_role",
+            "label": "Get Family Prescriptions",
+            "href": "/docs/HealthKareAI/User-App/family/getFamilyPrescriptions",
+            "docId": "HealthKareAI/User-App/family/getFamilyPrescriptions",
             "unlisted": false
           },
           {
             "type": "link",
-            "label": "Get User Details API",
-            "href": "/docs/HealthKareAI/get_user",
-            "docId": "HealthKareAI/get_user",
+            "label": "Update Family Member Details",
+            "href": "/docs/HealthKareAI/User-App/family/updateFamilyMemberDetails",
+            "docId": "HealthKareAI/User-App/family/updateFamilyMemberDetails",
             "unlisted": false
           }
         ],
@@ -278,12 +285,6 @@
       "description": "- 401 Unauthorized: Authentication failed due to incorrect credentials or OTP.",
       "sidebar": "healthKareAI"
     },
-    "HealthKareAI/get_user": {
-      "id": "HealthKareAI/get_user",
-      "title": "Get User Details API",
-      "description": "Endpoint",
-      "sidebar": "healthKareAI"
-    },
     "HealthKareAI/hospital/getDetails": {
       "id": "HealthKareAI/hospital/getDetails",
       "title": "Get Hospital Details API",
@@ -308,50 +309,67 @@
       "description": "POST /v1/hospital/otpVerify",
       "sidebar": "healthKareAI"
     },
-    "HealthKareAI/login": {
-      "id": "HealthKareAI/login",
+    "HealthKareAI/User-App/family/addUserToFamily": {
+      "id": "HealthKareAI/User-App/family/addUserToFamily",
+      "title": "Add family member",
+      "description": "- Endpoint: /family/addFamilyMember",
+      "sidebar": "healthKareAI"
+    },
+    "HealthKareAI/User-App/family/createFamily": {
+      "id": "HealthKareAI/User-App/family/createFamily",
+      "title": "Create Family",
+      "description": "- Endpoint: /family/createFamily",
+      "sidebar": "healthKareAI"
+    },
+    "HealthKareAI/User-App/family/getFamilyAppointments": {
+      "id": "HealthKareAI/User-App/family/getFamilyAppointments",
+      "title": "Get Family Appointments",
+      "description": "- Endpoint: /family/appointments",
+      "sidebar": "healthKareAI"
+    },
+    "HealthKareAI/User-App/family/getFamilyMembers": {
+      "id": "HealthKareAI/User-App/family/getFamilyMembers",
+      "title": "Get family members",
+      "description": "- Endpoint: /family/familyMembers",
+      "sidebar": "healthKareAI"
+    },
+    "HealthKareAI/User-App/family/getFamilyPrescriptions": {
+      "id": "HealthKareAI/User-App/family/getFamilyPrescriptions",
+      "title": "Get Family Prescriptions",
+      "description": "- Endpoint: /family/prescriptions",
+      "sidebar": "healthKareAI"
+    },
+    "HealthKareAI/User-App/family/updateFamilyMemberDetails": {
+      "id": "HealthKareAI/User-App/family/updateFamilyMemberDetails",
+      "title": "Update Family Member Details",
+      "description": "- Endpoint: /family/updateFamilyMemberDetails",
+      "sidebar": "healthKareAI"
+    },
+    "HealthKareAI/User-App/getUserDetails": {
+      "id": "HealthKareAI/User-App/getUserDetails",
+      "title": "Get User Details",
+      "description": "- Endpoint: /user/details"
+    },
+    "HealthKareAI/User-App/login": {
+      "id": "HealthKareAI/User-App/login",
       "title": "Login API",
       "description": "- Endpoint: /auth/login",
       "sidebar": "healthKareAI"
     },
-    "HealthKareAI/register": {
-      "id": "HealthKareAI/register",
+    "HealthKareAI/User-App/register": {
+      "id": "HealthKareAI/User-App/register",
       "title": "Register API",
       "description": "- Endpoint: /auth/register",
       "sidebar": "healthKareAI"
     },
-    "HealthKareAI/update_city": {
-      "id": "HealthKareAI/update_city",
-      "title": "Update User City API",
-      "description": "Endpoint",
+    "HealthKareAI/User-App/updateUserDetails": {
+      "id": "HealthKareAI/User-App/updateUserDetails",
+      "title": "Update User",
+      "description": "- Endpoint: /user/updateDetails",
       "sidebar": "healthKareAI"
     },
-    "HealthKareAI/update_email": {
-      "id": "HealthKareAI/update_email",
-      "title": "Update User Email API",
-      "description": "Endpoint",
-      "sidebar": "healthKareAI"
-    },
-    "HealthKareAI/update_password": {
-      "id": "HealthKareAI/update_password",
-      "title": "Update User Password API",
-      "description": "Endpoint",
-      "sidebar": "healthKareAI"
-    },
-    "HealthKareAI/update_phone": {
-      "id": "HealthKareAI/update_phone",
-      "title": "Update User Phone API",
-      "description": "Endpoint",
-      "sidebar": "healthKareAI"
-    },
-    "HealthKareAI/update_role": {
-      "id": "HealthKareAI/update_role",
-      "title": "Update User Role API",
-      "description": "Endpoint",
-      "sidebar": "healthKareAI"
-    },
-    "HealthKareAI/verifyOTP": {
-      "id": "HealthKareAI/verifyOTP",
+    "HealthKareAI/User-App/verifyOTP": {
+      "id": "HealthKareAI/User-App/verifyOTP",
       "title": "OTP Verification API",
       "description": "- Endpoint: /auth/verifyOTP",
       "sidebar": "healthKareAI"

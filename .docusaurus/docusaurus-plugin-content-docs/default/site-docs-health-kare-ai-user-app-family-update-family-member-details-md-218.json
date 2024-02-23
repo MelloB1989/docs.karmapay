@@ -1,0 +1,24 @@
+{
+  "id": "HealthKareAI/User-App/family/updateFamilyMemberDetails",
+  "title": "Update Family Member Details",
+  "description": "- Endpoint: /family/updateFamilyMemberDetails",
+  "source": "@site/docs/HealthKareAI/User-App/family/updateFamilyMemberDetails.md",
+  "sourceDirName": "HealthKareAI/User-App/family",
+  "slug": "/HealthKareAI/User-App/family/updateFamilyMemberDetails",
+  "permalink": "/docs/HealthKareAI/User-App/family/updateFamilyMemberDetails",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/mellob1989/docs.noobsverse/tree/main/docs/HealthKareAI/User-App/family/updateFamilyMemberDetails.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "healthKareAI",
+  "previous": {
+    "title": "Get Family Prescriptions",
+    "permalink": "/docs/HealthKareAI/User-App/family/getFamilyPrescriptions"
+  },
+  "next": {
+    "title": "Doctor Login API",
+    "permalink": "/docs/HealthKareAI/doctor/login"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "HealthKareAI/User-App/verifyOTP",
+  "title": "OTP Verification API",
+  "description": "- Endpoint: /auth/verifyOTP",
+  "source": "@site/docs/HealthKareAI/User-App/verifyOTP.md",
+  "sourceDirName": "HealthKareAI/User-App",
+  "slug": "/HealthKareAI/User-App/verifyOTP",
+  "permalink": "/docs/HealthKareAI/User-App/verifyOTP",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/mellob1989/docs.noobsverse/tree/main/docs/HealthKareAI/User-App/verifyOTP.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "healthKareAI",
+  "previous": {
+    "title": "Update User",
+    "permalink": "/docs/HealthKareAI/User-App/updateUserDetails"
+  },
+  "next": {
+    "title": "Add family member",
+    "permalink": "/docs/HealthKareAI/User-App/family/addUserToFamily"
+  }
+}

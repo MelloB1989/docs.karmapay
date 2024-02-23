@@ -6,8 +6,8 @@
 - **Request Body:**
   ```json
   {
-    "username": "user@example.com",
-    "password": "yourpassword"
+    "phone": "string",
+    "backend_secret": "string"
   }
   ```
 - **Responses:**
@@ -23,5 +23,5 @@
   ```bash
   curl -X POST http://<your-server-address>/auth/login \
   -H "Content-Type: application/json" \
-  -d '{"username":"user@example.com", "password":"yourpassword"}'
+  -d '{"phone": "1234567890", "backend_secret": "your_backend_secret"}'
   ```

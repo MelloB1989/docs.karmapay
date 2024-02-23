@@ -2,18 +2,22 @@
 
 - **Endpoint:** `/auth/verifyOTP`
 - **Method:** POST
-- **Description:** Verifies the OTP sent to the user's phone during login.
+- **Description:** Verify OTP for user authentication.
 - **Request Body:**
   ```json
   {
-    "username": "user@example.com",
-    "otp": "123456"
+    "phone": "string",
+    "otp": "string",
+    "backend_secret": "string"
   }
   ```
 - **Responses:**
   - **200 OK**
     ```json
-    { "message": "OTP verified", "token": "jwt.token.here" }
+    {
+      "message": "OTP verified",
+      "token": "string"
+    }
     ```
   - **401 Unauthorized**
     ```json
@@ -23,5 +27,5 @@
   ```bash
   curl -X POST http://<your-server-address>/auth/verifyOTP \
   -H "Content-Type: application/json" \
-  -d '{"username":"user@example.com", "otp":"123456"}'
+  -d '{"phone": "1234567890", "otp": "123456", "backend_secret": "your_backend_secret"}'
   ```

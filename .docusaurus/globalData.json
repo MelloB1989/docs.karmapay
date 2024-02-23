@@ -31,11 +31,6 @@
               "sidebar": "healthKareAI"
             },
             {
-              "id": "HealthKareAI/get_user",
-              "path": "/docs/HealthKareAI/get_user",
-              "sidebar": "healthKareAI"
-            },
-            {
               "id": "HealthKareAI/hospital/getDetails",
               "path": "/docs/HealthKareAI/hospital/getDetails",
               "sidebar": "healthKareAI"
@@ -56,43 +51,57 @@
               "sidebar": "healthKareAI"
             },
             {
-              "id": "HealthKareAI/login",
-              "path": "/docs/HealthKareAI/login",
+              "id": "HealthKareAI/User-App/family/addUserToFamily",
+              "path": "/docs/HealthKareAI/User-App/family/addUserToFamily",
               "sidebar": "healthKareAI"
             },
             {
-              "id": "HealthKareAI/register",
-              "path": "/docs/HealthKareAI/register",
+              "id": "HealthKareAI/User-App/family/createFamily",
+              "path": "/docs/HealthKareAI/User-App/family/createFamily",
               "sidebar": "healthKareAI"
             },
             {
-              "id": "HealthKareAI/update_city",
-              "path": "/docs/HealthKareAI/update_city",
+              "id": "HealthKareAI/User-App/family/getFamilyAppointments",
+              "path": "/docs/HealthKareAI/User-App/family/getFamilyAppointments",
               "sidebar": "healthKareAI"
             },
             {
-              "id": "HealthKareAI/update_email",
-              "path": "/docs/HealthKareAI/update_email",
+              "id": "HealthKareAI/User-App/family/getFamilyMembers",
+              "path": "/docs/HealthKareAI/User-App/family/getFamilyMembers",
               "sidebar": "healthKareAI"
             },
             {
-              "id": "HealthKareAI/update_password",
-              "path": "/docs/HealthKareAI/update_password",
+              "id": "HealthKareAI/User-App/family/getFamilyPrescriptions",
+              "path": "/docs/HealthKareAI/User-App/family/getFamilyPrescriptions",
               "sidebar": "healthKareAI"
             },
             {
-              "id": "HealthKareAI/update_phone",
-              "path": "/docs/HealthKareAI/update_phone",
+              "id": "HealthKareAI/User-App/family/updateFamilyMemberDetails",
+              "path": "/docs/HealthKareAI/User-App/family/updateFamilyMemberDetails",
               "sidebar": "healthKareAI"
             },
             {
-              "id": "HealthKareAI/update_role",
-              "path": "/docs/HealthKareAI/update_role",
+              "id": "HealthKareAI/User-App/getUserDetails",
+              "path": "/docs/HealthKareAI/User-App/getUserDetails"
+            },
+            {
+              "id": "HealthKareAI/User-App/login",
+              "path": "/docs/HealthKareAI/User-App/login",
               "sidebar": "healthKareAI"
             },
             {
-              "id": "HealthKareAI/verifyOTP",
-              "path": "/docs/HealthKareAI/verifyOTP",
+              "id": "HealthKareAI/User-App/register",
+              "path": "/docs/HealthKareAI/User-App/register",
+              "sidebar": "healthKareAI"
+            },
+            {
+              "id": "HealthKareAI/User-App/updateUserDetails",
+              "path": "/docs/HealthKareAI/User-App/updateUserDetails",
+              "sidebar": "healthKareAI"
+            },
+            {
+              "id": "HealthKareAI/User-App/verifyOTP",
+              "path": "/docs/HealthKareAI/User-App/verifyOTP",
               "sidebar": "healthKareAI"
             },
             {
@@ -169,8 +178,8 @@
             },
             "healthKareAI": {
               "link": {
-                "path": "/docs/HealthKareAI/login",
-                "label": "HealthKareAI/login"
+                "path": "/docs/HealthKareAI/User-App/login",
+                "label": "HealthKareAI/User-App/login"
               }
             }
           }

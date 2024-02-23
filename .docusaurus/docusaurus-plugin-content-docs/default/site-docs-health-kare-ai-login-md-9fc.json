@@ -1,7 +1,7 @@
 {
   "id": "HealthKareAI/login",
   "title": "Login API",
-  "description": "- Endpoint: /auth/login",
+  "description": "POST /login",
   "source": "@site/docs/HealthKareAI/login.md",
   "sourceDirName": "HealthKareAI",
   "slug": "/HealthKareAI/login",

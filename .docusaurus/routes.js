@@ -3,91 +3,56 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
-    path: '/__docusaurus/debug',
-    component: ComponentCreator('/__docusaurus/debug', '916'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/config',
-    component: ComponentCreator('/__docusaurus/debug/config', 'b6e'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/content',
-    component: ComponentCreator('/__docusaurus/debug/content', '5d1'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/globalData',
-    component: ComponentCreator('/__docusaurus/debug/globalData', '247'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/metadata',
-    component: ComponentCreator('/__docusaurus/debug/metadata', '240'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/registry',
-    component: ComponentCreator('/__docusaurus/debug/registry', 'e1d'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/routes',
-    component: ComponentCreator('/__docusaurus/debug/routes', '5f5'),
-    exact: true
-  },
-  {
     path: '/blog',
-    component: ComponentCreator('/blog', 'f90'),
+    component: ComponentCreator('/blog', '0ff'),
     exact: true
   },
   {
     path: '/blog/archive',
-    component: ComponentCreator('/blog/archive', '1c0'),
+    component: ComponentCreator('/blog/archive', '8db'),
     exact: true
   },
   {
     path: '/blog/long-blog-post',
-    component: ComponentCreator('/blog/long-blog-post', '943'),
+    component: ComponentCreator('/blog/long-blog-post', '2ac'),
     exact: true
   },
   {
     path: '/blog/mdx-blog-post',
-    component: ComponentCreator('/blog/mdx-blog-post', '41b'),
+    component: ComponentCreator('/blog/mdx-blog-post', '1eb'),
     exact: true
   },
   {
     path: '/blog/tags',
-    component: ComponentCreator('/blog/tags', 'e64'),
+    component: ComponentCreator('/blog/tags', 'c5d'),
     exact: true
   },
   {
     path: '/blog/tags/docusaurus',
-    component: ComponentCreator('/blog/tags/docusaurus', '491'),
+    component: ComponentCreator('/blog/tags/docusaurus', '3d3'),
     exact: true
   },
   {
     path: '/blog/tags/hello',
-    component: ComponentCreator('/blog/tags/hello', '91e'),
+    component: ComponentCreator('/blog/tags/hello', '026'),
     exact: true
   },
   {
     path: '/markdown-page',
-    component: ComponentCreator('/markdown-page', 'ff8'),
+    component: ComponentCreator('/markdown-page', '835'),
     exact: true
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', '234'),
+    component: ComponentCreator('/docs', '02e'),
     routes: [
       {
         path: '/docs',
-        component: ComponentCreator('/docs', '7f1'),
+        component: ComponentCreator('/docs', '852'),
         routes: [
           {
             path: '/docs',
-            component: ComponentCreator('/docs', '051'),
+            component: ComponentCreator('/docs', '5d1'),
             routes: [
               {
                 path: '/docs/HealthKareAI/doctor/login',
@@ -110,12 +75,6 @@ export default [
               {
                 path: '/docs/HealthKareAI/error_codes',
                 component: ComponentCreator('/docs/HealthKareAI/error_codes', '17b'),
-                exact: true,
-                sidebar: "healthKareAI"
-              },
-              {
-                path: '/docs/HealthKareAI/get_user',
-                component: ComponentCreator('/docs/HealthKareAI/get_user', '63b'),
                 exact: true,
                 sidebar: "healthKareAI"
               },
@@ -144,50 +103,67 @@ export default [
                 sidebar: "healthKareAI"
               },
               {
-                path: '/docs/HealthKareAI/login',
-                component: ComponentCreator('/docs/HealthKareAI/login', '5f6'),
+                path: '/docs/HealthKareAI/User-App/family/addUserToFamily',
+                component: ComponentCreator('/docs/HealthKareAI/User-App/family/addUserToFamily', '109'),
                 exact: true,
                 sidebar: "healthKareAI"
               },
               {
-                path: '/docs/HealthKareAI/register',
-                component: ComponentCreator('/docs/HealthKareAI/register', '6e7'),
+                path: '/docs/HealthKareAI/User-App/family/createFamily',
+                component: ComponentCreator('/docs/HealthKareAI/User-App/family/createFamily', '2d1'),
                 exact: true,
                 sidebar: "healthKareAI"
               },
               {
-                path: '/docs/HealthKareAI/update_city',
-                component: ComponentCreator('/docs/HealthKareAI/update_city', '35b'),
+                path: '/docs/HealthKareAI/User-App/family/getFamilyAppointments',
+                component: ComponentCreator('/docs/HealthKareAI/User-App/family/getFamilyAppointments', 'd10'),
                 exact: true,
                 sidebar: "healthKareAI"
               },
               {
-                path: '/docs/HealthKareAI/update_email',
-                component: ComponentCreator('/docs/HealthKareAI/update_email', '509'),
+                path: '/docs/HealthKareAI/User-App/family/getFamilyMembers',
+                component: ComponentCreator('/docs/HealthKareAI/User-App/family/getFamilyMembers', 'c01'),
                 exact: true,
                 sidebar: "healthKareAI"
               },
               {
-                path: '/docs/HealthKareAI/update_password',
-                component: ComponentCreator('/docs/HealthKareAI/update_password', '281'),
+                path: '/docs/HealthKareAI/User-App/family/getFamilyPrescriptions',
+                component: ComponentCreator('/docs/HealthKareAI/User-App/family/getFamilyPrescriptions', '998'),
                 exact: true,
                 sidebar: "healthKareAI"
               },
               {
-                path: '/docs/HealthKareAI/update_phone',
-                component: ComponentCreator('/docs/HealthKareAI/update_phone', '3c6'),
+                path: '/docs/HealthKareAI/User-App/family/updateFamilyMemberDetails',
+                component: ComponentCreator('/docs/HealthKareAI/User-App/family/updateFamilyMemberDetails', 'd68'),
                 exact: true,
                 sidebar: "healthKareAI"
               },
               {
-                path: '/docs/HealthKareAI/update_role',
-                component: ComponentCreator('/docs/HealthKareAI/update_role', 'd02'),
+                path: '/docs/HealthKareAI/User-App/getUserDetails',
+                component: ComponentCreator('/docs/HealthKareAI/User-App/getUserDetails', 'd1b'),
+                exact: true
+              },
+              {
+                path: '/docs/HealthKareAI/User-App/login',
+                component: ComponentCreator('/docs/HealthKareAI/User-App/login', '3ea'),
                 exact: true,
                 sidebar: "healthKareAI"
               },
               {
-                path: '/docs/HealthKareAI/verifyOTP',
-                component: ComponentCreator('/docs/HealthKareAI/verifyOTP', '110'),
+                path: '/docs/HealthKareAI/User-App/register',
+                component: ComponentCreator('/docs/HealthKareAI/User-App/register', '826'),
+                exact: true,
+                sidebar: "healthKareAI"
+              },
+              {
+                path: '/docs/HealthKareAI/User-App/updateUserDetails',
+                component: ComponentCreator('/docs/HealthKareAI/User-App/updateUserDetails', '900'),
+                exact: true,
+                sidebar: "healthKareAI"
+              },
+              {
+                path: '/docs/HealthKareAI/User-App/verifyOTP',
+                component: ComponentCreator('/docs/HealthKareAI/User-App/verifyOTP', 'a29'),
                 exact: true,
                 sidebar: "healthKareAI"
               },
@@ -276,7 +252,7 @@ export default [
   },
   {
     path: '/',
-    component: ComponentCreator('/', '241'),
+    component: ComponentCreator('/', '489'),
     exact: true
   },
   {

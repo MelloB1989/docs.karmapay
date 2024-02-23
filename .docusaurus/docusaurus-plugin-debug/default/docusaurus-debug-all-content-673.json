@@ -15,9 +15,9 @@
           "editUrlLocalized": "https://github.com/mellob1989/docs.noobsverse/tree/main/i18n/en/docusaurus-plugin-content-docs/current",
           "isLast": true,
           "routePriority": -1,
-          "sidebarFilePath": "/home/coder/code/docs.noobsverse/sidebars.js",
-          "contentPath": "/home/coder/code/docs.noobsverse/docs",
-          "contentPathLocalized": "/home/coder/code/docs.noobsverse/i18n/en/docusaurus-plugin-content-docs/current",
+          "sidebarFilePath": "/workspaces/docs.noobsverse/sidebars.js",
+          "contentPath": "/workspaces/docs.noobsverse/docs",
+          "contentPathLocalized": "/workspaces/docs.noobsverse/i18n/en/docusaurus-plugin-content-docs/current",
           "docs": [
             {
               "id": "HealthKareAI/doctor/login",
@@ -234,7 +234,7 @@
             {
               "id": "HealthKareAI/login",
               "title": "Login API",
-              "description": "- Endpoint: /auth/login",
+              "description": "POST /login",
               "source": "@site/docs/HealthKareAI/login.md",
               "sourceDirName": "HealthKareAI",
               "slug": "/HealthKareAI/login",
