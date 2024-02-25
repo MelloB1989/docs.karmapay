@@ -14,7 +14,7 @@
   "frontMatter": {},
   "sidebar": "healthKareAI",
   "previous": {
-    "title": "Get Hospital Details API",
-    "permalink": "/docs/HealthKareAI/hospital/getDetails"
+    "title": "Get Appointment API Endpoint",
+    "permalink": "/docs/HealthKareAI/Clinic-App/appointments/getAppointmentsList"
   }
 }

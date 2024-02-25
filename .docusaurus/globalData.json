@@ -11,43 +11,63 @@
           "mainDocId": "karmapay/karmapay",
           "docs": [
             {
-              "id": "HealthKareAI/doctor/login",
-              "path": "/docs/HealthKareAI/doctor/login",
+              "id": "HealthKareAI/Clinic-App/appointments/create",
+              "path": "/docs/HealthKareAI/Clinic-App/appointments/create",
               "sidebar": "healthKareAI"
             },
             {
-              "id": "HealthKareAI/doctor/register",
-              "path": "/docs/HealthKareAI/doctor/register",
+              "id": "HealthKareAI/Clinic-App/appointments/getAppointmentsList",
+              "path": "/docs/HealthKareAI/Clinic-App/appointments/getAppointmentsList",
               "sidebar": "healthKareAI"
             },
             {
-              "id": "HealthKareAI/doctor/verifyOTP",
-              "path": "/docs/HealthKareAI/doctor/verifyOTP",
+              "id": "HealthKareAI/Clinic-App/doctor/login",
+              "path": "/docs/HealthKareAI/Clinic-App/doctor/login",
+              "sidebar": "healthKareAI"
+            },
+            {
+              "id": "HealthKareAI/Clinic-App/doctor/register",
+              "path": "/docs/HealthKareAI/Clinic-App/doctor/register",
+              "sidebar": "healthKareAI"
+            },
+            {
+              "id": "HealthKareAI/Clinic-App/doctor/verifyOTP",
+              "path": "/docs/HealthKareAI/Clinic-App/doctor/verifyOTP",
+              "sidebar": "healthKareAI"
+            },
+            {
+              "id": "HealthKareAI/Clinic-App/hospital/getDetails",
+              "path": "/docs/HealthKareAI/Clinic-App/hospital/getDetails",
+              "sidebar": "healthKareAI"
+            },
+            {
+              "id": "HealthKareAI/Clinic-App/hospital/login",
+              "path": "/docs/HealthKareAI/Clinic-App/hospital/login",
+              "sidebar": "healthKareAI"
+            },
+            {
+              "id": "HealthKareAI/Clinic-App/hospital/register",
+              "path": "/docs/HealthKareAI/Clinic-App/hospital/register",
+              "sidebar": "healthKareAI"
+            },
+            {
+              "id": "HealthKareAI/Clinic-App/hospital/verifyOTP",
+              "path": "/docs/HealthKareAI/Clinic-App/hospital/verifyOTP",
+              "sidebar": "healthKareAI"
+            },
+            {
+              "id": "HealthKareAI/Clinic-App/prescriptions/create",
+              "path": "/docs/HealthKareAI/Clinic-App/prescriptions/create",
+              "sidebar": "healthKareAI"
+            },
+            {
+              "id": "HealthKareAI/Clinic-App/prescriptions/getPrescriptionsList",
+              "path": "/docs/HealthKareAI/Clinic-App/prescriptions/getPrescriptionsList",
               "sidebar": "healthKareAI"
             },
             {
               "id": "HealthKareAI/error_codes",
               "path": "/docs/HealthKareAI/error_codes",
-              "sidebar": "healthKareAI"
-            },
-            {
-              "id": "HealthKareAI/hospital/getDetails",
-              "path": "/docs/HealthKareAI/hospital/getDetails",
-              "sidebar": "healthKareAI"
-            },
-            {
-              "id": "HealthKareAI/hospital/login",
-              "path": "/docs/HealthKareAI/hospital/login",
-              "sidebar": "healthKareAI"
-            },
-            {
-              "id": "HealthKareAI/hospital/register",
-              "path": "/docs/HealthKareAI/hospital/register",
-              "sidebar": "healthKareAI"
-            },
-            {
-              "id": "HealthKareAI/hospital/verifyOTP",
-              "path": "/docs/HealthKareAI/hospital/verifyOTP",
               "sidebar": "healthKareAI"
             },
             {

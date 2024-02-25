@@ -44,61 +44,85 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', '02e'),
+    component: ComponentCreator('/docs', 'e37'),
     routes: [
       {
         path: '/docs',
-        component: ComponentCreator('/docs', '852'),
+        component: ComponentCreator('/docs', 'd0e'),
         routes: [
           {
             path: '/docs',
-            component: ComponentCreator('/docs', '5d1'),
+            component: ComponentCreator('/docs', '9fa'),
             routes: [
               {
-                path: '/docs/HealthKareAI/doctor/login',
-                component: ComponentCreator('/docs/HealthKareAI/doctor/login', '9bf'),
+                path: '/docs/HealthKareAI/Clinic-App/appointments/create',
+                component: ComponentCreator('/docs/HealthKareAI/Clinic-App/appointments/create', '964'),
                 exact: true,
                 sidebar: "healthKareAI"
               },
               {
-                path: '/docs/HealthKareAI/doctor/register',
-                component: ComponentCreator('/docs/HealthKareAI/doctor/register', 'cb8'),
+                path: '/docs/HealthKareAI/Clinic-App/appointments/getAppointmentsList',
+                component: ComponentCreator('/docs/HealthKareAI/Clinic-App/appointments/getAppointmentsList', '10a'),
                 exact: true,
                 sidebar: "healthKareAI"
               },
               {
-                path: '/docs/HealthKareAI/doctor/verifyOTP',
-                component: ComponentCreator('/docs/HealthKareAI/doctor/verifyOTP', '9c7'),
+                path: '/docs/HealthKareAI/Clinic-App/doctor/login',
+                component: ComponentCreator('/docs/HealthKareAI/Clinic-App/doctor/login', 'd31'),
+                exact: true,
+                sidebar: "healthKareAI"
+              },
+              {
+                path: '/docs/HealthKareAI/Clinic-App/doctor/register',
+                component: ComponentCreator('/docs/HealthKareAI/Clinic-App/doctor/register', 'ea6'),
+                exact: true,
+                sidebar: "healthKareAI"
+              },
+              {
+                path: '/docs/HealthKareAI/Clinic-App/doctor/verifyOTP',
+                component: ComponentCreator('/docs/HealthKareAI/Clinic-App/doctor/verifyOTP', '377'),
+                exact: true,
+                sidebar: "healthKareAI"
+              },
+              {
+                path: '/docs/HealthKareAI/Clinic-App/hospital/getDetails',
+                component: ComponentCreator('/docs/HealthKareAI/Clinic-App/hospital/getDetails', '583'),
+                exact: true,
+                sidebar: "healthKareAI"
+              },
+              {
+                path: '/docs/HealthKareAI/Clinic-App/hospital/login',
+                component: ComponentCreator('/docs/HealthKareAI/Clinic-App/hospital/login', '3d9'),
+                exact: true,
+                sidebar: "healthKareAI"
+              },
+              {
+                path: '/docs/HealthKareAI/Clinic-App/hospital/register',
+                component: ComponentCreator('/docs/HealthKareAI/Clinic-App/hospital/register', '503'),
+                exact: true,
+                sidebar: "healthKareAI"
+              },
+              {
+                path: '/docs/HealthKareAI/Clinic-App/hospital/verifyOTP',
+                component: ComponentCreator('/docs/HealthKareAI/Clinic-App/hospital/verifyOTP', '439'),
+                exact: true,
+                sidebar: "healthKareAI"
+              },
+              {
+                path: '/docs/HealthKareAI/Clinic-App/prescriptions/create',
+                component: ComponentCreator('/docs/HealthKareAI/Clinic-App/prescriptions/create', 'f49'),
+                exact: true,
+                sidebar: "healthKareAI"
+              },
+              {
+                path: '/docs/HealthKareAI/Clinic-App/prescriptions/getPrescriptionsList',
+                component: ComponentCreator('/docs/HealthKareAI/Clinic-App/prescriptions/getPrescriptionsList', '85c'),
                 exact: true,
                 sidebar: "healthKareAI"
               },
               {
                 path: '/docs/HealthKareAI/error_codes',
                 component: ComponentCreator('/docs/HealthKareAI/error_codes', '17b'),
-                exact: true,
-                sidebar: "healthKareAI"
-              },
-              {
-                path: '/docs/HealthKareAI/hospital/getDetails',
-                component: ComponentCreator('/docs/HealthKareAI/hospital/getDetails', '73c'),
-                exact: true,
-                sidebar: "healthKareAI"
-              },
-              {
-                path: '/docs/HealthKareAI/hospital/login',
-                component: ComponentCreator('/docs/HealthKareAI/hospital/login', '3ae'),
-                exact: true,
-                sidebar: "healthKareAI"
-              },
-              {
-                path: '/docs/HealthKareAI/hospital/register',
-                component: ComponentCreator('/docs/HealthKareAI/hospital/register', 'bc2'),
-                exact: true,
-                sidebar: "healthKareAI"
-              },
-              {
-                path: '/docs/HealthKareAI/hospital/verifyOTP',
-                component: ComponentCreator('/docs/HealthKareAI/hospital/verifyOTP', '8e3'),
                 exact: true,
                 sidebar: "healthKareAI"
               },

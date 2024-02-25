@@ -84,50 +84,66 @@
     },
     "content": "393be207"
   },
-  "/docs-02e": {
+  "/docs-e37": {
     "__comp": "5e95c892",
     "__context": {
       "plugin": "535a594f"
     }
   },
-  "/docs-852": {
+  "/docs-d0e": {
     "__comp": "a7bd4aaa",
     "version": "935f2afb"
   },
-  "/docs-5d1": {
+  "/docs-9fa": {
     "__comp": "a94703ab"
   },
-  "/docs/HealthKareAI/doctor/login-9bf": {
+  "/docs/HealthKareAI/Clinic-App/appointments/create-964": {
     "__comp": "17896441",
-    "content": "9c363642"
+    "content": "8726a546"
   },
-  "/docs/HealthKareAI/doctor/register-cb8": {
+  "/docs/HealthKareAI/Clinic-App/appointments/getAppointmentsList-10a": {
     "__comp": "17896441",
-    "content": "7f616ec5"
+    "content": "2ac3ad6f"
   },
-  "/docs/HealthKareAI/doctor/verifyOTP-9c7": {
+  "/docs/HealthKareAI/Clinic-App/doctor/login-d31": {
     "__comp": "17896441",
-    "content": "14ac715c"
+    "content": "d8c2679f"
+  },
+  "/docs/HealthKareAI/Clinic-App/doctor/register-ea6": {
+    "__comp": "17896441",
+    "content": "4da94951"
+  },
+  "/docs/HealthKareAI/Clinic-App/doctor/verifyOTP-377": {
+    "__comp": "17896441",
+    "content": "57aaf392"
+  },
+  "/docs/HealthKareAI/Clinic-App/hospital/getDetails-583": {
+    "__comp": "17896441",
+    "content": "9c2d442f"
+  },
+  "/docs/HealthKareAI/Clinic-App/hospital/login-3d9": {
+    "__comp": "17896441",
+    "content": "82753d92"
+  },
+  "/docs/HealthKareAI/Clinic-App/hospital/register-503": {
+    "__comp": "17896441",
+    "content": "00214a6c"
+  },
+  "/docs/HealthKareAI/Clinic-App/hospital/verifyOTP-439": {
+    "__comp": "17896441",
+    "content": "ad710487"
+  },
+  "/docs/HealthKareAI/Clinic-App/prescriptions/create-f49": {
+    "__comp": "17896441",
+    "content": "75e6a438"
+  },
+  "/docs/HealthKareAI/Clinic-App/prescriptions/getPrescriptionsList-85c": {
+    "__comp": "17896441",
+    "content": "eddfeb73"
   },
   "/docs/HealthKareAI/error_codes-17b": {
     "__comp": "17896441",
     "content": "f780f2c8"
-  },
-  "/docs/HealthKareAI/hospital/getDetails-73c": {
-    "__comp": "17896441",
-    "content": "c140cce3"
-  },
-  "/docs/HealthKareAI/hospital/login-3ae": {
-    "__comp": "17896441",
-    "content": "e8d58b46"
-  },
-  "/docs/HealthKareAI/hospital/register-bc2": {
-    "__comp": "17896441",
-    "content": "78e4fc88"
-  },
-  "/docs/HealthKareAI/hospital/verifyOTP-8e3": {
-    "__comp": "17896441",
-    "content": "3e9d7fbe"
   },
   "/docs/HealthKareAI/User-App/family/addUserToFamily-109": {
     "__comp": "17896441",

@@ -52,12 +52,22 @@ const sidebars = {
     {
       type: 'category',
       label: 'Doctor APIs',
-      items: ['HealthKareAI/doctor/login', 'HealthKareAI/doctor/register', 'HealthKareAI/doctor/verifyOTP']
+      items: ['HealthKareAI/Clinic-App/doctor/login', 'HealthKareAI/Clinic-App/doctor/register', 'HealthKareAI/Clinic-App/doctor/verifyOTP']
     },
     {
       type: 'category',
       label: 'Hospital APIs',
-      items: ['HealthKareAI/hospital/login', 'HealthKareAI/hospital/register', 'HealthKareAI/hospital/verifyOTP', 'HealthKareAI/hospital/getDetails']
+      items: ['HealthKareAI/Clinic-App/hospital/login', 'HealthKareAI/Clinic-App/hospital/register', 'HealthKareAI/Clinic-App/hospital/verifyOTP', 'HealthKareAI/Clinic-App/hospital/getDetails']
+    },
+    {
+      type: 'category',
+      label: 'Prescription APIs',
+      items: ['HealthKareAI/Clinic-App/prescriptions/create', 'HealthKareAI/Clinic-App/prescriptions/getPrescriptionsList']
+    },
+    {
+      type: 'category',
+      label: 'Appointments APIs',
+      items: ['HealthKareAI/Clinic-App/appointments/create', 'HealthKareAI/Clinic-App/appointments/getAppointmentsList']
     },
     {
       type: 'category',

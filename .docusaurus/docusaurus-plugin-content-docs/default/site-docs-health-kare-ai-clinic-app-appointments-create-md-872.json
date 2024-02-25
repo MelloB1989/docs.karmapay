@@ -1,0 +1,24 @@
+{
+  "id": "HealthKareAI/Clinic-App/appointments/create",
+  "title": "Create Appointment API Endpoint",
+  "description": "POST /create",
+  "source": "@site/docs/HealthKareAI/Clinic-App/appointments/create.md",
+  "sourceDirName": "HealthKareAI/Clinic-App/appointments",
+  "slug": "/HealthKareAI/Clinic-App/appointments/create",
+  "permalink": "/docs/HealthKareAI/Clinic-App/appointments/create",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/mellob1989/docs.noobsverse/tree/main/docs/HealthKareAI/Clinic-App/appointments/create.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "healthKareAI",
+  "previous": {
+    "title": "Get Prescription API Endpoint",
+    "permalink": "/docs/HealthKareAI/Clinic-App/prescriptions/getPrescriptionsList"
+  },
+  "next": {
+    "title": "Get Appointment API Endpoint",
+    "permalink": "/docs/HealthKareAI/Clinic-App/appointments/getAppointmentsList"
+  }
+}

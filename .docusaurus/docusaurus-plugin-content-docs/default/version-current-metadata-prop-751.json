@@ -184,23 +184,23 @@
         "items": [
           {
             "type": "link",
-            "label": "Doctor Login API",
-            "href": "/docs/HealthKareAI/doctor/login",
-            "docId": "HealthKareAI/doctor/login",
+            "label": "Register Doctor API Endpoint",
+            "href": "/docs/HealthKareAI/Clinic-App/doctor/login",
+            "docId": "HealthKareAI/Clinic-App/doctor/login",
             "unlisted": false
           },
           {
             "type": "link",
-            "label": "Register Doctor API",
-            "href": "/docs/HealthKareAI/doctor/register",
-            "docId": "HealthKareAI/doctor/register",
+            "label": "Doctor Login API Endpoint",
+            "href": "/docs/HealthKareAI/Clinic-App/doctor/register",
+            "docId": "HealthKareAI/Clinic-App/doctor/register",
             "unlisted": false
           },
           {
             "type": "link",
-            "label": "Verify Doctor OTP API",
-            "href": "/docs/HealthKareAI/doctor/verifyOTP",
-            "docId": "HealthKareAI/doctor/verifyOTP",
+            "label": "Verify Doctor OTP API Endpoint",
+            "href": "/docs/HealthKareAI/Clinic-App/doctor/verifyOTP",
+            "docId": "HealthKareAI/Clinic-App/doctor/verifyOTP",
             "unlisted": false
           }
         ],
@@ -213,30 +213,74 @@
         "items": [
           {
             "type": "link",
-            "label": "Hospital Login API",
-            "href": "/docs/HealthKareAI/hospital/login",
-            "docId": "HealthKareAI/hospital/login",
+            "label": "Hospital Login API Endpoint",
+            "href": "/docs/HealthKareAI/Clinic-App/hospital/login",
+            "docId": "HealthKareAI/Clinic-App/hospital/login",
             "unlisted": false
           },
           {
             "type": "link",
-            "label": "Register Hospital API",
-            "href": "/docs/HealthKareAI/hospital/register",
-            "docId": "HealthKareAI/hospital/register",
+            "label": "Register Hospital API Endpoint",
+            "href": "/docs/HealthKareAI/Clinic-App/hospital/register",
+            "docId": "HealthKareAI/Clinic-App/hospital/register",
             "unlisted": false
           },
           {
             "type": "link",
-            "label": "Verify Hospital OTP API",
-            "href": "/docs/HealthKareAI/hospital/verifyOTP",
-            "docId": "HealthKareAI/hospital/verifyOTP",
+            "label": "Verify Hospital OTP API Endpoint",
+            "href": "/docs/HealthKareAI/Clinic-App/hospital/verifyOTP",
+            "docId": "HealthKareAI/Clinic-App/hospital/verifyOTP",
             "unlisted": false
           },
           {
             "type": "link",
-            "label": "Get Hospital Details API",
-            "href": "/docs/HealthKareAI/hospital/getDetails",
-            "docId": "HealthKareAI/hospital/getDetails",
+            "label": "Get Hospital Details API Endpoint",
+            "href": "/docs/HealthKareAI/Clinic-App/hospital/getDetails",
+            "docId": "HealthKareAI/Clinic-App/hospital/getDetails",
+            "unlisted": false
+          }
+        ],
+        "collapsed": true,
+        "collapsible": true
+      },
+      {
+        "type": "category",
+        "label": "Prescription APIs",
+        "items": [
+          {
+            "type": "link",
+            "label": "Create Prescription API Endpoint",
+            "href": "/docs/HealthKareAI/Clinic-App/prescriptions/create",
+            "docId": "HealthKareAI/Clinic-App/prescriptions/create",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Get Prescription API Endpoint",
+            "href": "/docs/HealthKareAI/Clinic-App/prescriptions/getPrescriptionsList",
+            "docId": "HealthKareAI/Clinic-App/prescriptions/getPrescriptionsList",
+            "unlisted": false
+          }
+        ],
+        "collapsed": true,
+        "collapsible": true
+      },
+      {
+        "type": "category",
+        "label": "Appointments APIs",
+        "items": [
+          {
+            "type": "link",
+            "label": "Create Appointment API Endpoint",
+            "href": "/docs/HealthKareAI/Clinic-App/appointments/create",
+            "docId": "HealthKareAI/Clinic-App/appointments/create",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Get Appointment API Endpoint",
+            "href": "/docs/HealthKareAI/Clinic-App/appointments/getAppointmentsList",
+            "docId": "HealthKareAI/Clinic-App/appointments/getAppointmentsList",
             "unlisted": false
           }
         ],
@@ -261,52 +305,76 @@
     ]
   },
   "docs": {
-    "HealthKareAI/doctor/login": {
-      "id": "HealthKareAI/doctor/login",
-      "title": "Doctor Login API",
-      "description": "POST /v1/doctor/login",
+    "HealthKareAI/Clinic-App/appointments/create": {
+      "id": "HealthKareAI/Clinic-App/appointments/create",
+      "title": "Create Appointment API Endpoint",
+      "description": "POST /create",
       "sidebar": "healthKareAI"
     },
-    "HealthKareAI/doctor/register": {
-      "id": "HealthKareAI/doctor/register",
-      "title": "Register Doctor API",
-      "description": "POST /v1/doctor/register",
+    "HealthKareAI/Clinic-App/appointments/getAppointmentsList": {
+      "id": "HealthKareAI/Clinic-App/appointments/getAppointmentsList",
+      "title": "Get Appointment API Endpoint",
+      "description": "POST /get",
       "sidebar": "healthKareAI"
     },
-    "HealthKareAI/doctor/verifyOTP": {
-      "id": "HealthKareAI/doctor/verifyOTP",
-      "title": "Verify Doctor OTP API",
-      "description": "POST /v1/doctor/otpVerify",
+    "HealthKareAI/Clinic-App/doctor/login": {
+      "id": "HealthKareAI/Clinic-App/doctor/login",
+      "title": "Register Doctor API Endpoint",
+      "description": "POST /register",
+      "sidebar": "healthKareAI"
+    },
+    "HealthKareAI/Clinic-App/doctor/register": {
+      "id": "HealthKareAI/Clinic-App/doctor/register",
+      "title": "Doctor Login API Endpoint",
+      "description": "POST /login",
+      "sidebar": "healthKareAI"
+    },
+    "HealthKareAI/Clinic-App/doctor/verifyOTP": {
+      "id": "HealthKareAI/Clinic-App/doctor/verifyOTP",
+      "title": "Verify Doctor OTP API Endpoint",
+      "description": "POST /otpVerify",
+      "sidebar": "healthKareAI"
+    },
+    "HealthKareAI/Clinic-App/hospital/getDetails": {
+      "id": "HealthKareAI/Clinic-App/hospital/getDetails",
+      "title": "Get Hospital Details API Endpoint",
+      "description": "POST /details",
+      "sidebar": "healthKareAI"
+    },
+    "HealthKareAI/Clinic-App/hospital/login": {
+      "id": "HealthKareAI/Clinic-App/hospital/login",
+      "title": "Hospital Login API Endpoint",
+      "description": "POST /login",
+      "sidebar": "healthKareAI"
+    },
+    "HealthKareAI/Clinic-App/hospital/register": {
+      "id": "HealthKareAI/Clinic-App/hospital/register",
+      "title": "Register Hospital API Endpoint",
+      "description": "POST /register",
+      "sidebar": "healthKareAI"
+    },
+    "HealthKareAI/Clinic-App/hospital/verifyOTP": {
+      "id": "HealthKareAI/Clinic-App/hospital/verifyOTP",
+      "title": "Verify Hospital OTP API Endpoint",
+      "description": "POST /otpVerify",
+      "sidebar": "healthKareAI"
+    },
+    "HealthKareAI/Clinic-App/prescriptions/create": {
+      "id": "HealthKareAI/Clinic-App/prescriptions/create",
+      "title": "Create Prescription API Endpoint",
+      "description": "POST /create",
+      "sidebar": "healthKareAI"
+    },
+    "HealthKareAI/Clinic-App/prescriptions/getPrescriptionsList": {
+      "id": "HealthKareAI/Clinic-App/prescriptions/getPrescriptionsList",
+      "title": "Get Prescription API Endpoint",
+      "description": "POST /get",
       "sidebar": "healthKareAI"
     },
     "HealthKareAI/error_codes": {
       "id": "HealthKareAI/error_codes",
       "title": "Error Codes and Security",
       "description": "- 401 Unauthorized: Authentication failed due to incorrect credentials or OTP.",
-      "sidebar": "healthKareAI"
-    },
-    "HealthKareAI/hospital/getDetails": {
-      "id": "HealthKareAI/hospital/getDetails",
-      "title": "Get Hospital Details API",
-      "description": "POST /v1/hospital/details",
-      "sidebar": "healthKareAI"
-    },
-    "HealthKareAI/hospital/login": {
-      "id": "HealthKareAI/hospital/login",
-      "title": "Hospital Login API",
-      "description": "POST /v1/hospital/login",
-      "sidebar": "healthKareAI"
-    },
-    "HealthKareAI/hospital/register": {
-      "id": "HealthKareAI/hospital/register",
-      "title": "Register Hospital API",
-      "description": "POST /v1/hospital/register",
-      "sidebar": "healthKareAI"
-    },
-    "HealthKareAI/hospital/verifyOTP": {
-      "id": "HealthKareAI/hospital/verifyOTP",
-      "title": "Verify Hospital OTP API",
-      "description": "POST /v1/hospital/otpVerify",
       "sidebar": "healthKareAI"
     },
     "HealthKareAI/User-App/family/addUserToFamily": {

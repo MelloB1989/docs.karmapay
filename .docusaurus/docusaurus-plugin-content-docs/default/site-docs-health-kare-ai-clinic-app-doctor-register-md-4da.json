@@ -1,0 +1,24 @@
+{
+  "id": "HealthKareAI/Clinic-App/doctor/register",
+  "title": "Doctor Login API Endpoint",
+  "description": "POST /login",
+  "source": "@site/docs/HealthKareAI/Clinic-App/doctor/register.md",
+  "sourceDirName": "HealthKareAI/Clinic-App/doctor",
+  "slug": "/HealthKareAI/Clinic-App/doctor/register",
+  "permalink": "/docs/HealthKareAI/Clinic-App/doctor/register",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/mellob1989/docs.noobsverse/tree/main/docs/HealthKareAI/Clinic-App/doctor/register.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "healthKareAI",
+  "previous": {
+    "title": "Register Doctor API Endpoint",
+    "permalink": "/docs/HealthKareAI/Clinic-App/doctor/login"
+  },
+  "next": {
+    "title": "Verify Doctor OTP API Endpoint",
+    "permalink": "/docs/HealthKareAI/Clinic-App/doctor/verifyOTP"
+  }
+}
