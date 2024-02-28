@@ -4,7 +4,7 @@ Updates the clinic associated with the authenticated user's family. Requires use
 
 ## Endpoint
 
-`POST /updateFamilyClinic`
+`POST /family/updateFamilyClinic`
 
 ## Request Body
 

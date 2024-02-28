@@ -4,7 +4,7 @@ Retrieves all notifications for the authenticated user based on their phone numb
 
 ## Endpoint
 
-`GET /notifications`
+`GET /user/notifications`
 
 ## Authentication
 

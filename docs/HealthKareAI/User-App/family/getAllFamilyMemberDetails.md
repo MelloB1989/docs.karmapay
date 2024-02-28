@@ -4,7 +4,7 @@ Retrieves details for all family members associated with the authenticated user'
 
 ## Endpoint
 
-`GET /getAllFamilyMemberDetails`
+`GET /family/getAllFamilyMemberDetails`
 
 ## Authentication
 

@@ -4,7 +4,7 @@ Allows authenticated users to create a notification. The user must be authentica
 
 ## Endpoint
 
-`POST /createNotification`
+`POST /user/createNotification`
 
 ## Authentication
 

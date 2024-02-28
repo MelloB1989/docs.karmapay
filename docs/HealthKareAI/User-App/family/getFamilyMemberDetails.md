@@ -4,7 +4,7 @@ Retrieves details of a specific family member by their phone number. Requires us
 
 ## Endpoint
 
-`GET /getFamilyMemberDetails/:phone`
+`GET /family/getFamilyMemberDetails/:phone`
 
 ## URL Parameters
 
