@@ -1,6 +1,6 @@
 # Create Prescription API Endpoint
 
-## POST /create
+## POST /prescriptions/create
 
 This endpoint allows for the creation of a new prescription record.
 

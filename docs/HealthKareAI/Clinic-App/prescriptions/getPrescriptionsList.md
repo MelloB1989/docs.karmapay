@@ -1,6 +1,6 @@
 # Get Prescription API Endpoint
 
-## POST /get
+## POST /prescriptions/get
 
 This endpoint retrieves prescription records for a given family.
 

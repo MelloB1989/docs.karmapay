@@ -1,6 +1,6 @@
 # Get Appointment API Endpoint
 
-## POST /get
+## POST /appointments/get
 
 This endpoint retrieves appointment records for a given family.
 

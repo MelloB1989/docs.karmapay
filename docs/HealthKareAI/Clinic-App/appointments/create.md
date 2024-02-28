@@ -1,6 +1,6 @@
 # Create Appointment API Endpoint
 
-## POST /create
+## POST /appointments/create
 
 This endpoint allows for the creation of a new appointment record.
 

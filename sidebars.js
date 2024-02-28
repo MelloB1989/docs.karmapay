@@ -67,12 +67,12 @@ const sidebars = {
     {
       type: 'category',
       label: 'Prescription APIs',
-      items: ['HealthKareAI/Clinic-App/prescriptions/create', 'HealthKareAI/Clinic-App/prescriptions/getPrescriptionsList']
+      items: ['HealthKareAI/Clinic-App/prescriptions/create', 'HealthKareAI/Clinic-App/prescriptions/getPrescriptionsList', 'HealthKareAI/Clinic-App/prescriptions/update']
     },
     {
       type: 'category',
       label: 'Appointments APIs',
-      items: ['HealthKareAI/Clinic-App/appointments/create', 'HealthKareAI/Clinic-App/appointments/getAppointmentsList']
+      items: ['HealthKareAI/Clinic-App/appointments/create', 'HealthKareAI/Clinic-App/appointments/getAppointmentsList', 'HealthKareAI/Clinic-App/appointments/update']
     },
     {
       type: 'category',
