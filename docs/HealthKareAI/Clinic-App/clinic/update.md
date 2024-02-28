@@ -4,7 +4,7 @@ Updates the details of an existing clinic entry.
 
 ## Endpoint
 
-`POST /update`
+`POST /clinic/update`
 
 ## Request Body
 

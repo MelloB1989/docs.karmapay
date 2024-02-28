@@ -4,7 +4,7 @@ Creates a new clinic entry in the system.
 
 ## Endpoint
 
-`POST /create`
+`POST /clinic/create`
 
 ## Request Body
 

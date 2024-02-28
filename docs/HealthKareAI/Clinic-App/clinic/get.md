@@ -4,7 +4,7 @@ Retrieves the details of a specific clinic by its unique identifier.
 
 ## Endpoint
 
-`GET /get/:id`
+`GET /clinic/get/:id`
 
 ## URL Parameters
 
