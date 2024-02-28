@@ -21,6 +21,21 @@
               "sidebar": "healthKareAI"
             },
             {
+              "id": "HealthKareAI/Clinic-App/clinic/create",
+              "path": "/docs/HealthKareAI/Clinic-App/clinic/create",
+              "sidebar": "healthKareAI"
+            },
+            {
+              "id": "HealthKareAI/Clinic-App/clinic/get",
+              "path": "/docs/HealthKareAI/Clinic-App/clinic/get",
+              "sidebar": "healthKareAI"
+            },
+            {
+              "id": "HealthKareAI/Clinic-App/clinic/update",
+              "path": "/docs/HealthKareAI/Clinic-App/clinic/update",
+              "sidebar": "healthKareAI"
+            },
+            {
               "id": "HealthKareAI/Clinic-App/doctor/login",
               "path": "/docs/HealthKareAI/Clinic-App/doctor/login",
               "sidebar": "healthKareAI"
@@ -71,6 +86,11 @@
               "sidebar": "healthKareAI"
             },
             {
+              "id": "HealthKareAI/User-App/createNotification",
+              "path": "/docs/HealthKareAI/User-App/createNotification",
+              "sidebar": "healthKareAI"
+            },
+            {
               "id": "HealthKareAI/User-App/family/addUserToFamily",
               "path": "/docs/HealthKareAI/User-App/family/addUserToFamily",
               "sidebar": "healthKareAI"
@@ -81,8 +101,18 @@
               "sidebar": "healthKareAI"
             },
             {
+              "id": "HealthKareAI/User-App/family/getAllFamilyMemberDetails",
+              "path": "/docs/HealthKareAI/User-App/family/getAllFamilyMemberDetails",
+              "sidebar": "healthKareAI"
+            },
+            {
               "id": "HealthKareAI/User-App/family/getFamilyAppointments",
               "path": "/docs/HealthKareAI/User-App/family/getFamilyAppointments",
+              "sidebar": "healthKareAI"
+            },
+            {
+              "id": "HealthKareAI/User-App/family/getFamilyMemberDetails",
+              "path": "/docs/HealthKareAI/User-App/family/getFamilyMemberDetails",
               "sidebar": "healthKareAI"
             },
             {
@@ -96,8 +126,18 @@
               "sidebar": "healthKareAI"
             },
             {
+              "id": "HealthKareAI/User-App/family/updateFamilyClinic",
+              "path": "/docs/HealthKareAI/User-App/family/updateFamilyClinic",
+              "sidebar": "healthKareAI"
+            },
+            {
               "id": "HealthKareAI/User-App/family/updateFamilyMemberDetails",
               "path": "/docs/HealthKareAI/User-App/family/updateFamilyMemberDetails",
+              "sidebar": "healthKareAI"
+            },
+            {
+              "id": "HealthKareAI/User-App/getNotifications",
+              "path": "/docs/HealthKareAI/User-App/getNotifications",
               "sidebar": "healthKareAI"
             },
             {

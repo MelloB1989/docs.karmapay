@@ -42,12 +42,17 @@ const sidebars = {
     {
       type: 'category',
       label: 'HealthKareAI User APIs',
-      items: ['HealthKareAI/User-App/login', 'HealthKareAI/User-App/register', 'HealthKareAI/User-App/updateUserDetails', 'HealthKareAI/User-App/verifyOTP'],
+      items: ['HealthKareAI/User-App/login', 'HealthKareAI/User-App/register', 'HealthKareAI/User-App/updateUserDetails', 'HealthKareAI/User-App/verifyOTP', 'HealthKareAI/User-App/createNotification', 'HealthKareAI/User-App/getNotifications'],
+    },
+    {
+      type: 'category',
+      label: 'HealthKareAI Clinic APIs',
+      items: ['HealthKareAI/Clinic-App/clinic/create', 'HealthKareAI/Clinic-App/clinic/update', 'HealthKareAI/Clinic-App/clinic/get'],
     },
     {
       type: 'category',
       label: 'HealthKareAI User-Family APIs',
-      items: ['HealthKareAI/User-App/family/addUserToFamily', 'HealthKareAI/User-App/family/createFamily', 'HealthKareAI/User-App/family/getFamilyAppointments', 'HealthKareAI/User-App/family/getFamilyMembers', 'HealthKareAI/User-App/family/getFamilyPrescriptions', 'HealthKareAI/User-App/family/updateFamilyMemberDetails'],
+      items: ['HealthKareAI/User-App/family/addUserToFamily', 'HealthKareAI/User-App/family/createFamily', 'HealthKareAI/User-App/family/getFamilyAppointments', 'HealthKareAI/User-App/family/getFamilyMembers', 'HealthKareAI/User-App/family/getFamilyPrescriptions', 'HealthKareAI/User-App/family/updateFamilyMemberDetails', 'HealthKareAI/User-App/family/getFamilyMemberDetails', 'HealthKareAI/User-App/family/getAllFamilyMemberDetails', 'HealthKareAI/User-App/family/updateFamilyClinic'],
     },
     {
       type: 'category',

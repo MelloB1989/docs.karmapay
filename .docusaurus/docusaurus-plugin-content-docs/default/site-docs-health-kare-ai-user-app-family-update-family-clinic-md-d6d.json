@@ -1,0 +1,24 @@
+{
+  "id": "HealthKareAI/User-App/family/updateFamilyClinic",
+  "title": "Update Family Clinic",
+  "description": "Updates the clinic associated with the authenticated user's family. Requires user to be the family owner.",
+  "source": "@site/docs/HealthKareAI/User-App/family/updateFamilyClinic.md",
+  "sourceDirName": "HealthKareAI/User-App/family",
+  "slug": "/HealthKareAI/User-App/family/updateFamilyClinic",
+  "permalink": "/docs/HealthKareAI/User-App/family/updateFamilyClinic",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/mellob1989/docs.noobsverse/tree/main/docs/HealthKareAI/User-App/family/updateFamilyClinic.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "healthKareAI",
+  "previous": {
+    "title": "Get All Family Member Details",
+    "permalink": "/docs/HealthKareAI/User-App/family/getAllFamilyMemberDetails"
+  },
+  "next": {
+    "title": "Register Doctor API Endpoint",
+    "permalink": "/docs/HealthKareAI/Clinic-App/doctor/login"
+  }
+}

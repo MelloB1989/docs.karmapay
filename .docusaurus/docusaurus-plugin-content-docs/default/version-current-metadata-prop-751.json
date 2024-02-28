@@ -123,6 +123,49 @@
             "href": "/docs/HealthKareAI/User-App/verifyOTP",
             "docId": "HealthKareAI/User-App/verifyOTP",
             "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Create Notification",
+            "href": "/docs/HealthKareAI/User-App/createNotification",
+            "docId": "HealthKareAI/User-App/createNotification",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Get User Notifications",
+            "href": "/docs/HealthKareAI/User-App/getNotifications",
+            "docId": "HealthKareAI/User-App/getNotifications",
+            "unlisted": false
+          }
+        ],
+        "collapsed": true,
+        "collapsible": true
+      },
+      {
+        "type": "category",
+        "label": "HealthKareAI Clinic APIs",
+        "items": [
+          {
+            "type": "link",
+            "label": "Create Clinic",
+            "href": "/docs/HealthKareAI/Clinic-App/clinic/create",
+            "docId": "HealthKareAI/Clinic-App/clinic/create",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Update Clinic Details",
+            "href": "/docs/HealthKareAI/Clinic-App/clinic/update",
+            "docId": "HealthKareAI/Clinic-App/clinic/update",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Get Clinic",
+            "href": "/docs/HealthKareAI/Clinic-App/clinic/get",
+            "docId": "HealthKareAI/Clinic-App/clinic/get",
+            "unlisted": false
           }
         ],
         "collapsed": true,
@@ -172,6 +215,27 @@
             "label": "Update Family Member Details",
             "href": "/docs/HealthKareAI/User-App/family/updateFamilyMemberDetails",
             "docId": "HealthKareAI/User-App/family/updateFamilyMemberDetails",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Get Family Member Details",
+            "href": "/docs/HealthKareAI/User-App/family/getFamilyMemberDetails",
+            "docId": "HealthKareAI/User-App/family/getFamilyMemberDetails",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Get All Family Member Details",
+            "href": "/docs/HealthKareAI/User-App/family/getAllFamilyMemberDetails",
+            "docId": "HealthKareAI/User-App/family/getAllFamilyMemberDetails",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Update Family Clinic",
+            "href": "/docs/HealthKareAI/User-App/family/updateFamilyClinic",
+            "docId": "HealthKareAI/User-App/family/updateFamilyClinic",
             "unlisted": false
           }
         ],
@@ -317,6 +381,24 @@
       "description": "POST /get",
       "sidebar": "healthKareAI"
     },
+    "HealthKareAI/Clinic-App/clinic/create": {
+      "id": "HealthKareAI/Clinic-App/clinic/create",
+      "title": "Create Clinic",
+      "description": "Creates a new clinic entry in the system.",
+      "sidebar": "healthKareAI"
+    },
+    "HealthKareAI/Clinic-App/clinic/get": {
+      "id": "HealthKareAI/Clinic-App/clinic/get",
+      "title": "Get Clinic",
+      "description": "Retrieves the details of a specific clinic by its unique identifier.",
+      "sidebar": "healthKareAI"
+    },
+    "HealthKareAI/Clinic-App/clinic/update": {
+      "id": "HealthKareAI/Clinic-App/clinic/update",
+      "title": "Update Clinic Details",
+      "description": "Updates the details of an existing clinic entry.",
+      "sidebar": "healthKareAI"
+    },
     "HealthKareAI/Clinic-App/doctor/login": {
       "id": "HealthKareAI/Clinic-App/doctor/login",
       "title": "Register Doctor API Endpoint",
@@ -377,6 +459,12 @@
       "description": "- 401 Unauthorized: Authentication failed due to incorrect credentials or OTP.",
       "sidebar": "healthKareAI"
     },
+    "HealthKareAI/User-App/createNotification": {
+      "id": "HealthKareAI/User-App/createNotification",
+      "title": "Create Notification",
+      "description": "Allows authenticated users to create a notification. The user must be authenticated and authorized to create notifications for their account.",
+      "sidebar": "healthKareAI"
+    },
     "HealthKareAI/User-App/family/addUserToFamily": {
       "id": "HealthKareAI/User-App/family/addUserToFamily",
       "title": "Add family member",
@@ -389,10 +477,22 @@
       "description": "- Endpoint: /family/createFamily",
       "sidebar": "healthKareAI"
     },
+    "HealthKareAI/User-App/family/getAllFamilyMemberDetails": {
+      "id": "HealthKareAI/User-App/family/getAllFamilyMemberDetails",
+      "title": "Get All Family Member Details",
+      "description": "Retrieves details for all family members associated with the authenticated user's family ID.",
+      "sidebar": "healthKareAI"
+    },
     "HealthKareAI/User-App/family/getFamilyAppointments": {
       "id": "HealthKareAI/User-App/family/getFamilyAppointments",
       "title": "Get Family Appointments",
       "description": "- Endpoint: /family/appointments",
+      "sidebar": "healthKareAI"
+    },
+    "HealthKareAI/User-App/family/getFamilyMemberDetails": {
+      "id": "HealthKareAI/User-App/family/getFamilyMemberDetails",
+      "title": "Get Family Member Details",
+      "description": "Retrieves details of a specific family member by their phone number. Requires user authentication.",
       "sidebar": "healthKareAI"
     },
     "HealthKareAI/User-App/family/getFamilyMembers": {
@@ -407,10 +507,22 @@
       "description": "- Endpoint: /family/prescriptions",
       "sidebar": "healthKareAI"
     },
+    "HealthKareAI/User-App/family/updateFamilyClinic": {
+      "id": "HealthKareAI/User-App/family/updateFamilyClinic",
+      "title": "Update Family Clinic",
+      "description": "Updates the clinic associated with the authenticated user's family. Requires user to be the family owner.",
+      "sidebar": "healthKareAI"
+    },
     "HealthKareAI/User-App/family/updateFamilyMemberDetails": {
       "id": "HealthKareAI/User-App/family/updateFamilyMemberDetails",
       "title": "Update Family Member Details",
       "description": "- Endpoint: /family/updateFamilyMemberDetails",
+      "sidebar": "healthKareAI"
+    },
+    "HealthKareAI/User-App/getNotifications": {
+      "id": "HealthKareAI/User-App/getNotifications",
+      "title": "Get User Notifications",
+      "description": "Retrieves all notifications for the authenticated user based on their phone number.",
       "sidebar": "healthKareAI"
     },
     "HealthKareAI/User-App/getUserDetails": {

@@ -14,8 +14,8 @@
   "frontMatter": {},
   "sidebar": "healthKareAI",
   "previous": {
-    "title": "OTP Verification API",
-    "permalink": "/docs/HealthKareAI/User-App/verifyOTP"
+    "title": "Get Clinic",
+    "permalink": "/docs/HealthKareAI/Clinic-App/clinic/get"
   },
   "next": {
     "title": "Create Family",

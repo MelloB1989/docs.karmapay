@@ -1,0 +1,24 @@
+{
+  "id": "HealthKareAI/Clinic-App/clinic/update",
+  "title": "Update Clinic Details",
+  "description": "Updates the details of an existing clinic entry.",
+  "source": "@site/docs/HealthKareAI/Clinic-App/clinic/update.md",
+  "sourceDirName": "HealthKareAI/Clinic-App/clinic",
+  "slug": "/HealthKareAI/Clinic-App/clinic/update",
+  "permalink": "/docs/HealthKareAI/Clinic-App/clinic/update",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/mellob1989/docs.noobsverse/tree/main/docs/HealthKareAI/Clinic-App/clinic/update.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "healthKareAI",
+  "previous": {
+    "title": "Create Clinic",
+    "permalink": "/docs/HealthKareAI/Clinic-App/clinic/create"
+  },
+  "next": {
+    "title": "Get Clinic",
+    "permalink": "/docs/HealthKareAI/Clinic-App/clinic/get"
+  }
+}

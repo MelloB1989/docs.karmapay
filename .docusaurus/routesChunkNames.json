@@ -84,17 +84,17 @@
     },
     "content": "393be207"
   },
-  "/docs-e37": {
+  "/docs-360": {
     "__comp": "5e95c892",
     "__context": {
       "plugin": "535a594f"
     }
   },
-  "/docs-d0e": {
+  "/docs-5ef": {
     "__comp": "a7bd4aaa",
     "version": "935f2afb"
   },
-  "/docs-9fa": {
+  "/docs-35a": {
     "__comp": "a94703ab"
   },
   "/docs/HealthKareAI/Clinic-App/appointments/create-964": {
@@ -104,6 +104,18 @@
   "/docs/HealthKareAI/Clinic-App/appointments/getAppointmentsList-10a": {
     "__comp": "17896441",
     "content": "2ac3ad6f"
+  },
+  "/docs/HealthKareAI/Clinic-App/clinic/create-118": {
+    "__comp": "17896441",
+    "content": "24894ea5"
+  },
+  "/docs/HealthKareAI/Clinic-App/clinic/get-e52": {
+    "__comp": "17896441",
+    "content": "5c28a004"
+  },
+  "/docs/HealthKareAI/Clinic-App/clinic/update-f21": {
+    "__comp": "17896441",
+    "content": "91a12f6f"
   },
   "/docs/HealthKareAI/Clinic-App/doctor/login-d31": {
     "__comp": "17896441",
@@ -145,6 +157,10 @@
     "__comp": "17896441",
     "content": "f780f2c8"
   },
+  "/docs/HealthKareAI/User-App/createNotification-0c7": {
+    "__comp": "17896441",
+    "content": "9903ad04"
+  },
   "/docs/HealthKareAI/User-App/family/addUserToFamily-109": {
     "__comp": "17896441",
     "content": "16f1a448"
@@ -153,9 +169,17 @@
     "__comp": "17896441",
     "content": "a70eac11"
   },
+  "/docs/HealthKareAI/User-App/family/getAllFamilyMemberDetails-7ad": {
+    "__comp": "17896441",
+    "content": "4e2992ff"
+  },
   "/docs/HealthKareAI/User-App/family/getFamilyAppointments-d10": {
     "__comp": "17896441",
     "content": "d4cc0e8c"
+  },
+  "/docs/HealthKareAI/User-App/family/getFamilyMemberDetails-fe5": {
+    "__comp": "17896441",
+    "content": "7cbdf648"
   },
   "/docs/HealthKareAI/User-App/family/getFamilyMembers-c01": {
     "__comp": "17896441",
@@ -165,9 +189,17 @@
     "__comp": "17896441",
     "content": "b357733e"
   },
+  "/docs/HealthKareAI/User-App/family/updateFamilyClinic-cd9": {
+    "__comp": "17896441",
+    "content": "d6d67b6f"
+  },
   "/docs/HealthKareAI/User-App/family/updateFamilyMemberDetails-d68": {
     "__comp": "17896441",
     "content": "2186d91a"
+  },
+  "/docs/HealthKareAI/User-App/getNotifications-702": {
+    "__comp": "17896441",
+    "content": "36b91e63"
   },
   "/docs/HealthKareAI/User-App/getUserDetails-d1b": {
     "__comp": "17896441",

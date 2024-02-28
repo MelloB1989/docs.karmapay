@@ -18,7 +18,7 @@
     "permalink": "/docs/HealthKareAI/User-App/updateUserDetails"
   },
   "next": {
-    "title": "Add family member",
-    "permalink": "/docs/HealthKareAI/User-App/family/addUserToFamily"
+    "title": "Create Notification",
+    "permalink": "/docs/HealthKareAI/User-App/createNotification"
   }
 }

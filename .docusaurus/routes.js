@@ -44,15 +44,15 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', 'e37'),
+    component: ComponentCreator('/docs', '360'),
     routes: [
       {
         path: '/docs',
-        component: ComponentCreator('/docs', 'd0e'),
+        component: ComponentCreator('/docs', '5ef'),
         routes: [
           {
             path: '/docs',
-            component: ComponentCreator('/docs', '9fa'),
+            component: ComponentCreator('/docs', '35a'),
             routes: [
               {
                 path: '/docs/HealthKareAI/Clinic-App/appointments/create',
@@ -63,6 +63,24 @@ export default [
               {
                 path: '/docs/HealthKareAI/Clinic-App/appointments/getAppointmentsList',
                 component: ComponentCreator('/docs/HealthKareAI/Clinic-App/appointments/getAppointmentsList', '10a'),
+                exact: true,
+                sidebar: "healthKareAI"
+              },
+              {
+                path: '/docs/HealthKareAI/Clinic-App/clinic/create',
+                component: ComponentCreator('/docs/HealthKareAI/Clinic-App/clinic/create', '118'),
+                exact: true,
+                sidebar: "healthKareAI"
+              },
+              {
+                path: '/docs/HealthKareAI/Clinic-App/clinic/get',
+                component: ComponentCreator('/docs/HealthKareAI/Clinic-App/clinic/get', 'e52'),
+                exact: true,
+                sidebar: "healthKareAI"
+              },
+              {
+                path: '/docs/HealthKareAI/Clinic-App/clinic/update',
+                component: ComponentCreator('/docs/HealthKareAI/Clinic-App/clinic/update', 'f21'),
                 exact: true,
                 sidebar: "healthKareAI"
               },
@@ -127,6 +145,12 @@ export default [
                 sidebar: "healthKareAI"
               },
               {
+                path: '/docs/HealthKareAI/User-App/createNotification',
+                component: ComponentCreator('/docs/HealthKareAI/User-App/createNotification', '0c7'),
+                exact: true,
+                sidebar: "healthKareAI"
+              },
+              {
                 path: '/docs/HealthKareAI/User-App/family/addUserToFamily',
                 component: ComponentCreator('/docs/HealthKareAI/User-App/family/addUserToFamily', '109'),
                 exact: true,
@@ -139,8 +163,20 @@ export default [
                 sidebar: "healthKareAI"
               },
               {
+                path: '/docs/HealthKareAI/User-App/family/getAllFamilyMemberDetails',
+                component: ComponentCreator('/docs/HealthKareAI/User-App/family/getAllFamilyMemberDetails', '7ad'),
+                exact: true,
+                sidebar: "healthKareAI"
+              },
+              {
                 path: '/docs/HealthKareAI/User-App/family/getFamilyAppointments',
                 component: ComponentCreator('/docs/HealthKareAI/User-App/family/getFamilyAppointments', 'd10'),
+                exact: true,
+                sidebar: "healthKareAI"
+              },
+              {
+                path: '/docs/HealthKareAI/User-App/family/getFamilyMemberDetails',
+                component: ComponentCreator('/docs/HealthKareAI/User-App/family/getFamilyMemberDetails', 'fe5'),
                 exact: true,
                 sidebar: "healthKareAI"
               },
@@ -157,8 +193,20 @@ export default [
                 sidebar: "healthKareAI"
               },
               {
+                path: '/docs/HealthKareAI/User-App/family/updateFamilyClinic',
+                component: ComponentCreator('/docs/HealthKareAI/User-App/family/updateFamilyClinic', 'cd9'),
+                exact: true,
+                sidebar: "healthKareAI"
+              },
+              {
                 path: '/docs/HealthKareAI/User-App/family/updateFamilyMemberDetails',
                 component: ComponentCreator('/docs/HealthKareAI/User-App/family/updateFamilyMemberDetails', 'd68'),
+                exact: true,
+                sidebar: "healthKareAI"
+              },
+              {
+                path: '/docs/HealthKareAI/User-App/getNotifications',
+                component: ComponentCreator('/docs/HealthKareAI/User-App/getNotifications', '702'),
                 exact: true,
                 sidebar: "healthKareAI"
               },

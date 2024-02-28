@@ -1,0 +1,24 @@
+{
+  "id": "HealthKareAI/User-App/getNotifications",
+  "title": "Get User Notifications",
+  "description": "Retrieves all notifications for the authenticated user based on their phone number.",
+  "source": "@site/docs/HealthKareAI/User-App/getNotifications.md",
+  "sourceDirName": "HealthKareAI/User-App",
+  "slug": "/HealthKareAI/User-App/getNotifications",
+  "permalink": "/docs/HealthKareAI/User-App/getNotifications",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/mellob1989/docs.noobsverse/tree/main/docs/HealthKareAI/User-App/getNotifications.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "healthKareAI",
+  "previous": {
+    "title": "Create Notification",
+    "permalink": "/docs/HealthKareAI/User-App/createNotification"
+  },
+  "next": {
+    "title": "Create Clinic",
+    "permalink": "/docs/HealthKareAI/Clinic-App/clinic/create"
+  }
+}

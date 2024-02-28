@@ -18,7 +18,7 @@
     "permalink": "/docs/HealthKareAI/User-App/family/getFamilyPrescriptions"
   },
   "next": {
-    "title": "Register Doctor API Endpoint",
-    "permalink": "/docs/HealthKareAI/Clinic-App/doctor/login"
+    "title": "Get Family Member Details",
+    "permalink": "/docs/HealthKareAI/User-App/family/getFamilyMemberDetails"
   }
 }

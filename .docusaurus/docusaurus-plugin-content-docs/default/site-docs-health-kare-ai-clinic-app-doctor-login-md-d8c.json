@@ -14,8 +14,8 @@
   "frontMatter": {},
   "sidebar": "healthKareAI",
   "previous": {
-    "title": "Update Family Member Details",
-    "permalink": "/docs/HealthKareAI/User-App/family/updateFamilyMemberDetails"
+    "title": "Update Family Clinic",
+    "permalink": "/docs/HealthKareAI/User-App/family/updateFamilyClinic"
   },
   "next": {
     "title": "Doctor Login API Endpoint",

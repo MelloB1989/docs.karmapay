@@ -1,0 +1,24 @@
+{
+  "id": "HealthKareAI/User-App/family/getAllFamilyMemberDetails",
+  "title": "Get All Family Member Details",
+  "description": "Retrieves details for all family members associated with the authenticated user's family ID.",
+  "source": "@site/docs/HealthKareAI/User-App/family/getAllFamilyMemberDetails.md",
+  "sourceDirName": "HealthKareAI/User-App/family",
+  "slug": "/HealthKareAI/User-App/family/getAllFamilyMemberDetails",
+  "permalink": "/docs/HealthKareAI/User-App/family/getAllFamilyMemberDetails",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/mellob1989/docs.noobsverse/tree/main/docs/HealthKareAI/User-App/family/getAllFamilyMemberDetails.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "healthKareAI",
+  "previous": {
+    "title": "Get Family Member Details",
+    "permalink": "/docs/HealthKareAI/User-App/family/getFamilyMemberDetails"
+  },
+  "next": {
+    "title": "Update Family Clinic",
+    "permalink": "/docs/HealthKareAI/User-App/family/updateFamilyClinic"
+  }
+}
