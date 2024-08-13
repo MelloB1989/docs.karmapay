@@ -8,7 +8,7 @@ The Create Order API allows developers to create a new payment order through Kar
 
 ## Endpoint
 
-### Base URL : `https://edge.karmapay.live/api/v1/`
+### API Endpoint URL : `https://karmapay-backend.app.k8s.coffeecodes.in/v1/orders/create`
 
 - `/create-order` (replace with the actual endpoint URL)
 
