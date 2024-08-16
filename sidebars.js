@@ -79,6 +79,14 @@ const sidebars = {
       label: 'Error Codes',
       items: ['HealthKareAI/error_codes'],
     }
+  ],
+
+  ev_backend: [
+    {
+      type: 'category',
+      label: 'AUTH APIs',
+      items: ['EV/auth/login', 'EV/auth/verifyOTP', 'EV/auth/signup'],
+    }
   ]
 
   // But you can create a sidebar manually
