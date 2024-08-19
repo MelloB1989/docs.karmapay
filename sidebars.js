@@ -86,6 +86,11 @@ const sidebars = {
       type: 'category',
       label: 'AUTH APIs',
       items: ['EV/auth/login', 'EV/auth/verifyOTP', 'EV/auth/signup'],
+    },
+    {
+      type: 'category',
+      label: 'Station APIs',
+      items: ['EV/stations/createStations', 'EV/stations/getAllStations', 'EV/stations/getClosestStations', 'EV/stations/getStation',],
     }
   ]
 
