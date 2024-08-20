@@ -95,7 +95,7 @@ const sidebars = {
     {
       type: 'category',
       label: 'Bike APIs',
-      items: ['EV/bikes/createBikes', 'EV/bikes/getAllBikes', 'EV/bikes/getBikeByFrameNumber', 'EV/bikes/getBikeByStationID', 'EV/bikes/getBikeByID', 'EV/bikes/getBikesByTopSpeedGT', 'EV/bikes/getBikesByTopSpeedLT', 'EV/bikes/GetBikesByTopSpeedRange', 'EV/bikes/getFastestBike'],
+      items: ['EV/bikes/createBikes', 'EV/bikes/getAllBikes', 'EV/bikes/getBikeByFrameNumber', 'EV/bikes/getBikeByStationID', 'EV/bikes/getBikesByID', 'EV/bikes/getBikesByTopSpeedGT', 'EV/bikes/getBikesByTopSpeedLT', 'EV/bikes/GetBikesByTopSpeedRange', 'EV/bikes/getFastestBike'],
     }
   ]
 
