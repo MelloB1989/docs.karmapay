@@ -91,6 +91,11 @@ const sidebars = {
       type: 'category',
       label: 'Station APIs',
       items: ['EV/stations/createStations', 'EV/stations/getAllStations', 'EV/stations/getClosestStations', 'EV/stations/getStation',],
+    },
+    {
+      type: 'category',
+      label: 'Bike APIs',
+      items: ['EV/bikes/createBikes', 'EV/bikes/getAllBikes', 'EV/bikes/getBikeByFrameNumber', 'EV/bikes/getBikeByStationID', 'EV/bikes/getBikeByID', 'EV/bikes/getBikesByTopSpeedGT', 'EV/bikes/getBikesByTopSpeedLT', 'EV/bikes/GetBikesByTopSpeedRange', 'EV/bikes/getFastestBike'],
     }
   ]
 
