@@ -158,16 +158,12 @@ const sidebars = {
     {
       type: "category",
       label: "Wallet APIs",
-      items: [
-        "EV/wallets/getBalance",
-        "EV/wallets/topup",
-        "EV/wallets/webhook",
-      ],
+      items: ["EV/wallet/getBalance", "EV/wallet/topup", "EV/wallet/webhook"],
     },
     {
       type: "category",
       label: "User APIs",
-      items: ["EV/users/getDetails"],
+      items: ["EV/user/getDetails"],
     },
   ],
 
