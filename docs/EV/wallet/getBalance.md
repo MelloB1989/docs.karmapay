@@ -1,8 +1,6 @@
-# API Documentation: Get Wallet Balance API
+# 2. Get Wallet Balance
 
-## 2. Get Wallet Balance
-
-### Description
+## Description
 The Get Wallet Balance API is used to retrieve the current balance of a user's wallet. The user must be authenticated using a bearer token to perform this operation.
 
 ### Endpoint
