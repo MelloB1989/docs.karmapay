@@ -1,4 +1,4 @@
-# 1. Top-up Wallet
+# 2. Top-up Wallet
 
 ### Description
 The Top-up Wallet API is used to add funds to a user's wallet. The user must be authenticated using a bearer token to perform this operation.

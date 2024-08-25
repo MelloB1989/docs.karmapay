@@ -1,4 +1,4 @@
-# 4. Wallet Webhook
+# 3. Wallet Webhook
 
 ## Description
 The Wallet Webhook API is used to trigger specific actions related to a user's wallet. This API uses query parameters to pass necessary data such as the user ID, balance to be added or deducted, and a secure webhook key. The user must be authenticated using a bearer token to perform this operation.
