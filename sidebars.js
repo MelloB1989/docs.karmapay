@@ -166,6 +166,18 @@ const sidebars = {
       items: ["EV/user/getDetails"],
     },
   ],
+  avidia: [
+    {
+      type: "category",
+      label: "Cohorts",
+      items: ["Avidia/cohorts"],
+    },
+    {
+      type: "category",
+      label: "Quizzes",
+      items: ["Avidia/quizzes"],
+    },
+  ],
 
   // But you can create a sidebar manually
   /*
