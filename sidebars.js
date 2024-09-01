@@ -176,6 +176,9 @@ const sidebars = {// By default, Docusaurus generates a sidebar from the docs fo
    */,ev: [
     { type: 'category', label: 's', items: ["'ev/get'", "'ev/create'"] },
   ],
+ev: [
+    { type: 'category', label: 'bikes', items: ['"ev/get"', '"ev/create"'] }
+  ]
 };
 
 export default sidebars;
