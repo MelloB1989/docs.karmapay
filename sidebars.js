@@ -178,8 +178,6 @@ const sidebars = {
       items: ["Avidia/quizzes"],
     },
   ],
-
-  {}
   /*
   tutorialSidebar: [
     'intro',
