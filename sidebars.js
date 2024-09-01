@@ -184,10 +184,12 @@ bikes: [
 user: [
     { type: 'category', label: 'user', items: ['"ev/user/create"'] }
   ],
+v: [
+  ],
 e: [
   ],
-v: [
-  ]
+  v: [
+  ],
 };
 
 export default sidebars;

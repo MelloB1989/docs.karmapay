@@ -1,59 +1,37 @@
 # API Documentation
 
-## Meta Information
+## getAllBikes
 
-- **Name**: getAllBikes
-- **Type**: HTTP
-- **Sequence**: 3
+### Meta Information
 
-## Endpoint: Get All Bikes
+- **Name:** getAllBikes
+- **Type:** HTTP
+- **Sequence:** 3
 
-### GET Request
+### HTTP GET Request
 
-- **URL**: `http://localhost:3000/v1/bikes/get`
-- **Body**: None
-- **Authentication**: Bearer token required
+Retrieves all bikes from the server.
 
-### Authentication
+- **URL:** `http://localhost:3000/v1/bikes/get`
+- **Body:** None
+- **Auth Type:** Bearer Token
 
-The endpoint requires a Bearer token for authentication. Below is an example token:
+### Authorization
 
-```plaintext
-eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwaG9uZSI6Iis5MTk4MTI5NDA3MDYiLCJ1aWQiOiJhZnJ3dXZkXzFqIn0.se2WRRJhST9uvOyhTwunvJiiMYD-RYfKqfXPMN2NnE0
+The API request requires a Bearer token for authorization. Use the following token:
+
+- **Token:**
+  ```
+  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwaG9uZSI6Iis5MTk4MTI5NDA3MDYiLCJ1aWQiOiJhZnJ3dXZkXzFqIn0.se2WRRJhST9uvOyhTwunvJiiMYD-RYfKqfXPMN2NnE0
+  ```
+
+## Usage Example
+
+Here is an example of how to make a request to get all bikes using `curl`:
+
+```sh
+curl -X GET http://localhost:3000/v1/bikes/get \
+     -H "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwaG9uZSI6Iis5MTk4MTI5NDA3MDYiLCJ1aWQiOiJhZnJ3dXZkXzFqIn0.se2WRRJhST9uvOyhTwunvJiiMYD-RYfKqfXPMN2NnE0"
 ```
 
-### Example CURL Command
-
-```bash
-curl -X GET 'http://localhost:3000/v1/bikes/get' \
-     -H 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwaG9uZSI6Iis5MTk4MTI5NDA3MDYiLCJ1aWQiOiJhZnJ3dXZkXzFqIn0.se2WRRJhST9uvOyhTwunvJiiMYD-RYfKqfXPMN2NnE0'
-```
-
-### Response
-
-- **Status Code**: 200 OK
-- **Content-Type**: application/json
-
-#### Example Response Body
-
-```json
-[
-    {
-        "id": "1",
-        "model": "Mountain Bike",
-        "brand": "Brand A",
-        "color": "Red"
-    },
-    {
-        "id": "2",
-        "model": "Road Bike",
-        "brand": "Brand B",
-        "color": "Blue"
-    }
-]
-```
-
-### Notes
-
-- Ensure the Bearer token is valid and active.
-- This endpoint returns a list of all available bikes with their respective details.
+Make sure to replace the URL, headers, and Bearer token with the appropriate values if they are subject to change.
