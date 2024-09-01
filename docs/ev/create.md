@@ -1,29 +1,22 @@
-# API Documentation: Create User Subscription
+# API Documentation
 
-## API Overview
+## 1. Create User Subscription
 
-- **Name**: `create`
-- **Type**: `http`
-- **Sequence**: `1`
-
-## HTTP Request
-
-- **Method**: `POST`
-- **URL**: `http://localhost:3000/v1/user_subscription/create`
-- **Body Type**: `json`
-- **Authentication**: `Bearer Token`
-
-## Authentication
-
-To authenticate, include the following Bearer token in your request headers:
-
-```plaintext
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwaG9uZSI6Iis5MTk4MTI5NDA3MDYiLCJ1aWQiOiIwXzZpaGFjanJyIn0.Rf1ZUJpJdBBbep4cGCqwBQ2A8IyETp2UTrnecGHdi6I
+### Endpoint
+```
+POST http://localhost:3000/v1/user_subscription/create
 ```
 
-## Request Body
+### Authentication
+This endpoint requires Bearer token authentication.
 
-The request body must be in JSON format with the following structure:
+#### Bearer Token
+```
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwaG9uZSI6Iis5MTk4MTI5NDA3MDYiLCJ1aWQiOiIwXzZpaGFjanJyIn0.Rf1ZUJpJdBBbep4cGCqwBQ2A8IyETp2UTrnecGHdi6I
+```
+
+### Request Body
+The request body must be in JSON format and include the following fields:
 
 ```json
 {
@@ -33,23 +26,23 @@ The request body must be in JSON format with the following structure:
 }
 ```
 
-- **subscription_id**: *(string)* The unique identifier for the subscription.
-- **start_date**: *(string)* The start date of the subscription in `DD/MM/YYYY` format.
-- **end_date**: *(string)* The end date of the subscription in `DD/MM/YYYY` format.
+### Example Request
+```http
+POST /v1/user_subscription/create HTTP/1.1
+Host: localhost:3000
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwaG9uZSI6Iis5MTk4MTI5NDA3MDYiLCJ1aWQiOiIwXzZpaGFjanJyIn0.Rf1ZUJpJdBBbep4cGCqwBQ2A8IyETp2UTrnecGHdi6I
+Content-Type: application/json
 
-## Example Request
-
-```bash
-curl -X POST "http://localhost:3000/v1/user_subscription/create" \
-     -H "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwaG9uZSI6Iis5MTk4MTI5NDA3MDYiLCJ1aWQiOiIwXzZpaGFjanJyIn0.Rf1ZUJpJdBBbep4cGCqwBQ2A8IyETp2UTrnecGHdi6I" \
-     -H "Content-Type: application/json" \
-     -d '{
-           "subscription_id": "ftx0li8efd",
-           "start_date": "27/11/2004",
-           "end_date": "27/11/2004"
-         }'
+{
+  "subscription_id": "ftx0li8efd",
+  "start_date": "27/11/2004",
+  "end_date": "27/11/2004"
+}
 ```
 
-## Response
+### Response
+The response will contain details of the created user subscription.
 
-The response will contain the details of the created user subscription. Ensure to handle both successful and error responses appropriately.
+---
+
+This is a basic example of documenting an API using markdown. Make sure to adjust the endpoint, headers, and request/response bodies as per your actual API details.

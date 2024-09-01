@@ -173,10 +173,8 @@ const sidebars = {// By default, Docusaurus generates a sidebar from the docs fo
       items: ['tutorial-basics/create-a-document'],
     },
   ],
-   */,
-ev: [
-    { type: 'doc', id: 'ev/create' },
-    { type: 'doc', id: 'ev/get' },
+   */,ev: [
+    { type: 'category', label: 's', items: ["'ev/get'", "'ev/create'"] },
   ],
 };
 
