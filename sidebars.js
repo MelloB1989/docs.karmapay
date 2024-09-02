@@ -174,22 +174,7 @@ const sidebars = {
       items: ['tutorial-basics/create-a-document'],
     },
   ],
-   */,e },
-  ],
-e }
-  ],
-bikes: [
-    { type: 'category', label: 'bikes', items: ['"ev/bikes/get"'] }
-  ],
-user: [
-    { type: 'category', label: 'user', items: ['"ev/user/create"'] }
-  ],
-v: [
-  ],
-e: [
-  ],
-  v: [
-  ],
+   */
 };
 
 export default sidebars;
